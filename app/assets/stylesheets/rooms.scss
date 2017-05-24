@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -141,13 +141,13 @@ main {
   height: 100%;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 64px;
-  width: 100%;
-}
+// .footer {
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   height: 64px;
+//   width: 100%;
+// }
 
 .team-menu {
   position: relative;
@@ -327,7 +327,7 @@ main {
   border-radius: 0.2rem;
   width: 48px;
   height: 48px;
-  background-image: url(http://findicons.com/icon/download/102283/fh02/300/png);
+  // background-image: url(http://findicons.com/icon/download/102283/fh02/300/png);
   background-size: cover;
   margin-right: 8px;
 }
@@ -354,7 +354,8 @@ main {
 
 .logout a:link {
   font-style: italic;
-  color: #dc2257
+  color: black;
+  font-size: 50px;
 }
 
 .input-box {

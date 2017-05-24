@@ -1,0 +1,143 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.para1 {
+  position: fixed;
+  font-size: 12px;
+  color: black;
+  top: 470px;
+  width: 170px;
+  height: 189px;
+  left: 20px;
+  font-family: 'Antic Slab', serif;
+  color: black;
+}
+
+.para2 {
+  position: fixed;
+  font-size: 12px;
+  text-align: center;
+  top: 182px;
+  width: 380px;
+  height: 389px;
+  left: 445px;
+  color: black;
+  font-family: 'Rye', cursive;
+  font-weight: lighter;
+}
+
+#para22 {
+  font-family: 'Rye', cursive;
+  font-size: 18px;
+}
+
+#para33 {
+  font-family: 'Rye', cursive;
+  font-size: 12px;
+}
+
+#para44 {
+  position: fixed;
+  top: 170px;
+  width: 200px;
+  height: 189px;
+  left: 1030px;
+  font-size: 14px;
+  font-family: 'Phosphate',cursive;
+}
+
+#para55 {
+  position: fixed;
+  top: 210px;
+  width: 200px;
+  height: 189px;
+  left: 1030px;
+  font-size: 14px;
+  font-family: 'HelveticaNeue', cursive;
+}
+
+#para66{
+  position: fixed;
+  top: 360px;
+  width: 268px;
+  height: 189px;
+  left: 1030px;
+  font-size: 14px;
+  font-family: 'Rye', cursive;
+  text-align: left;
+}
+
+#para77{
+  position: fixed;
+  top: 409px;
+  width: 268px;
+  height: 189px;
+  left: 1030px;
+  font-size: 14px;
+  font-family: 'HelveticaNeue', cursive;
+  text-align: left;
+}
+.para66shallowbx {
+  position: fixed;
+  top: 320px;
+  width: 270px;
+  height: 189px;
+  left: 1030px;
+  -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+}
+
+
+
+.homeLogo {
+  position: fixed;
+
+  top: -29.3px;
+  width: 767px;
+  height: 800.7px;
+  left: 245px;
+}
+
+.drawLogo {
+  position: relative;
+  top: 8px;
+  width: 50px;
+  height: 40px;
+}
+
+.nestle {
+  position: fixed;
+  top: 200px;
+  width: 120px;
+  height: 419px;
+  left: 230px;
+}
+
+.redLet{
+  position: fixed;
+  top: 420px;
+  width: 200px;
+  height: 189px;
+  left: 1130px;
+}
+
+iframe {
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    width: 200px;
+    height: 250px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  }
+
+  iframe:hover {
+    background-color: #EE82EE;
+    top: 200px;
+    left: 20px;
+    width: 200px;
+    height: 250px;
+  }

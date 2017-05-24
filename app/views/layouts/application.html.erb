@@ -4,13 +4,37 @@
     <title><%= content_for?(:title) ? yield(:title) : 'ColorMeStraight' %></title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto|Rye|Antic+Slab|Bungee+Shade|Diplomata|Faster+One|Monoton|Mystery+Quest|Special+Elite|Vast+Shadow" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="body1">
+    <div class="prlx-scroll-wrapper">
+      <%= image_tag('blankcolorpg.png', class: "logo") %>
+      <%= image_tag('pinklogo.png', class: "headerlogo") %>
+      <%= image_tag('blankcolorpg.png', class: "logo2") %>
+      <%= image_tag('clearpage.png', class: "logo3") %>
+
+    </div>
+
+    <div class="logoName">
+      Color Me Straight
+    </div>
+
+
+    <nav class="nav1">
+      <h2></h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/chemicals">Thermal Reconditioning</a></li>
+        <li><a href="/users/sign_in">Chat In</a></li>
+      </ul>
+    </nav>
 
        <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>

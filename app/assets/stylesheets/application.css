@@ -13,3 +13,123 @@
  *= require_tree .
  *= require_self
  */
+ .body1 {
+    font-family: 'Arial', cursive;
+    background-color: #FEFFE7;
+    color: black;
+    letter-spacing: 0.1em;
+    background-size: 50%;
+    /*background-image: url(/assets/dis_backg.jpg);*/
+  }
+
+  /*a {
+    text-decoration: none;
+    color: #433633;
+  }*/
+
+  .logo {
+    position: fixed;
+    background-size: cover;
+    right: 5px;
+    top: -35px;
+    width: 605px;
+    height: 800px;
+    z-index: -3;
+  }
+  .logo2 {
+    position: fixed;
+    background-size: cover;
+    left: 5px;
+    top: -35px;
+    width: 605px;
+    height: 800px;
+    z-index: -3;
+  }
+
+  .logo3 {
+    position: fixed;
+    background-size: cover;
+    left: 270px;
+    top: -36.4px;
+    width: 855px;
+    height: 800px;
+    z-index: -3;
+  }
+
+  .headerlogo {
+    position: fixed;
+    right: 287px;
+    top: 5px;
+    width: 725px;
+    height: 126px;
+  }
+
+  .logoName {
+    position: fixed;
+    font-size: 24px;
+    right: 197px;
+    top: 65px;
+    width: 725px;
+    height: 126px;
+    font-family: 'Diplomata', cursive;
+  }
+
+  .prlx-scroll-wrapper {
+   // overflow: hidden;
+   position: relative;
+   height: 700px;
+   top: 100px;
+   text-align: center;
+ }
+
+
+  /*h1 {
+    font-family: 'Bungee Shade', cursive;
+  }*/
+
+  .nav1 {
+   font-family: 'Vast Shadow', cursive;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   z-index: 11;
+   padding: 15px;
+   color: #454545;
+   /*border-bottom: 3px solid #454545;*/
+   height: 85px;
+  }
+
+  .nav1 h2 {
+    display: inline;
+    position: relative;
+    left: 500px;
+    top: 90px
+    letter-spacing: 0.2em;
+    margin-right: 150px;
+  }
+
+  .nav1 ul {
+    position: relative;
+    left: 80px;
+  }
+
+  .nav1 li {
+   display: inline;
+   position: relative;
+   top: 97px;
+   left: 115px;
+   padding-right: 70px;
+   font-size: 18px;
+   width: 50px;
+   letter-spacing: .1em;
+  }
+
+  .nav1 a {
+    text-decoration: none;
+    color: #454545;
+  }
+
+  .nav1 a:hover {
+    color: #feccc9;
+  }
