@@ -18,7 +18,7 @@
 
 html {
   line-height: 1;
-  position: relative;
+  // position: relative;
   height: 100%;
   font-size: 16px;
   font-family: Lato, sans-serif;
@@ -44,111 +44,117 @@ blockquote:after {
   content: none;
 }
 
-a img {
-  border: none;
-}
-
-q {
-  quotes: none;
-}
-q:before {
-  content: "";
-  content: none;
-}
-q:after {
-  content: "";
-  content: none;
-}
-
-ol {
-  list-style: none;
-}
-
-ul {
-  list-style: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-article {
-  display: block;
-}
-
-aside {
-  display: block;
-}
-
-details {
-  display: block;
-}
-
-figure {
-  display: block;
-}
-
+// a img {
+//   border: none;
+// }
+//
+// q {
+//   quotes: none;
+// }
+// q:before {
+//   content: "";
+//   content: none;
+// }
+// q:after {
+//   content: "";
+//   content: none;
+// }
+//
+// ol {
+//   list-style: none;
+// }
+//
+// ul {
+//   list-style: none;
+// }
+//
+// table {
+//   border-collapse: collapse;
+//   border-spacing: 0;
+// }
+//
+// article {
+//   display: block;
+// }
+//
+// aside {
+//   display: block;
+// }
+//
+// details {
+//   display: block;
+// }
+//
+// figure {
+//   display: block;
+// }
+//
 figcaption {
   display: block;
 }
 
-footer {
-  display: block;
-}
-
-header {
-  display: block;
-}
-
-hgroup {
-  display: block;
-}
-
-menu {
-  display: block;
-}
-
-nav {
-  display: block;
-}
-
-section {
-  display: block;
-}
-
-summary {
-  display: block;
-}
-
-main {
-  display: block;
-}
-
+// footer {
+//   display: block;
+// }
+//
+// header {
+//   display: block;
+// }
+//
+// hgroup {
+//   display: block;
+// }
+//
+// menu {
+//   display: block;
+// }
+//
+// nav {
+//   display: block;
+// }
+//
+// section {
+//   display: block;
+// }
+//
+// summary {
+//   display: block;
+// }
+//
+// main {
+//   display: block;
+// }
+//
 * {
   box-sizing: border-box;
 }
 
+// channels header
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 200px;
+  left: 50px;
   height: 53px;
   width: 100%;
 }
 
+// sidebar height
 .main {
-  height: 100%;
+  position: fixed;
+  left: 50px;
+  top: 250px;
+  height: 300px;
+}
+// textarea input box
+.footer {
+  position: fixed;
+  left: 100px;
+  bottom: 145px;
+  height: 64px;
+  width: 100%;
 }
 
-// .footer {
-//   position: absolute;
-//   left: 0;
-//   bottom: 0;
-//   height: 64px;
-//   width: 100%;
-// }
-
+// shadow box color for Chat box
 .team-menu {
   position: relative;
   width: 220px;
@@ -179,6 +185,7 @@ main {
   font-weight: 500;
 }
 
+// display of inside sidebar user/listing
 .listings {
   height: 100%;
   width: 220px;
@@ -190,7 +197,7 @@ main {
 }
 
 .message-history {
-  margin-left: 220px;
+  margin-left: 250px;
   overflow-y: auto;
   overflow-x: hidden;
   height: 100%;
@@ -234,6 +241,7 @@ main {
   background: #4c9689;
 }
 
+// writing inside sidebar
 .unread {
   color: #ffffff;
   background: #eb4d5c;
@@ -260,13 +268,16 @@ main {
   margin-right: 17px;
 }
 
+// img lady icon positionin
 .message {
   position: relative;
+  // left: 100px;
   margin-top: 0.5rem;
   padding: 0.25rem 2rem 0.1rem 3rem;
   min-height: 36px;
 }
 
+// img lady icon
 .message_profile-pic {
   position: absolute;
   left: 0;
@@ -278,6 +289,7 @@ main {
   background-size: cover;
 }
 
+// font control of chat box
 .message_username {
   font-weight: 900;
   padding-right: 0.25rem;
@@ -307,31 +319,34 @@ main {
   min-height: 1rem;
 }
 
+// bottom logout box
 .user-menu {
   float: left;
   width: 220px;
   height: 100%;
   cursor: pointer;
-  background: #3e313c;
+  background: #D5A3C0;
   border-top: 2px solid #372c36;
   padding: 7px 0 9px 8px;
   height: 4rem;
   position: fixed;
-  bottom: 0;
-  left: 0;
+  bottom: 150px;
+  left: 50px;
 }
 
+// users lady icon
 .user-menu_profile-pic {
   display: inline-block;
   float: left;
   border-radius: 0.2rem;
   width: 48px;
   height: 48px;
-  // background-image: url(http://findicons.com/icon/download/102283/fh02/300/png);
+  background-image: url(http://findicons.com/icon/download/102283/fh02/300/png);
   background-size: cover;
   margin-right: 8px;
 }
 
+// bottom logout box font design
 .user-menu_username {
   display: block;
   overflow: hidden;
@@ -341,22 +356,24 @@ main {
   line-height: 1.5rem;
   margin-top: 0.2rem;
   max-width: 120px;
+  left: 150px;
 }
 
-.connection_icon {
-  width: 12px;
-  height: 12px;
-}
+// .connection_icon {
+//   width: 12px;
+//   height: 12px;
+// }
 
-.connection_status {
-  color: #ab9ba9;
-}
+// .connection_status {
+//   color: #ab9ba9;
+// }
 
-.logout a:link {
-  font-style: italic;
-  color: black;
-  font-size: 50px;
-}
+// logout botton control size and size
+// .logout a:link {
+//   font-style: italic;
+//   color: black;
+//   font-size: 50px;
+// }
 
 .input-box {
   height: 100%;
@@ -365,7 +382,7 @@ main {
 
 .input-box_text {
   font-size: 0.95rem;
-  width: 90%;
+  width: 40%;
   margin-left: 2%;
   margin-bottom: auto;
   line-height: 1.2rem;
