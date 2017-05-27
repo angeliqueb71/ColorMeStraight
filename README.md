@@ -23,3 +23,7 @@ Things you may want to cover:
 
 * ...
 # ColorMeStraight
+
+REM vs EM 
+
+https://zellwk.com/blog/rem-vs-em/

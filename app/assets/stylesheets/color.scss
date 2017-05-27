@@ -1,3 +1,49 @@
 // Place all the styles related to the color controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// iframe {
+//     position: fixed;
+//     top: 200px;
+//     right: 120px;
+//     width: 300px;
+//     height: 350px;
+//     z-index: 2;
+//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+//   }
+//
+//   iframe:hover {
+//     background-color: #EE82EE;
+//     top: 200px;
+//     right: 120px;
+//     width: 300px;
+//     height: 350px;
+//   }
+
+  h3,h4 {
+    font-family:"Lato", sans-serif
+  }
+
+  .mySlides {
+    display:none
+  }
+
+  .w3-tag, .fa {
+    cursor:pointer
+  }
+
+  .w3-tag {
+    height:15px;
+    width:15px;
+    padding:0;
+    margin-top:100px
+  }
+
+  .w3-top, .w3-row, .w3-col {
+
+    font-size: 1em;
+    color: lightgrey;
+    margin-top: 50px
+
+  }

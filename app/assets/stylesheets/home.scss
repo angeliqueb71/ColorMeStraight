@@ -2,6 +2,125 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 16800px;
+}
+
+#wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-image: url(/assets/pinkhair.jpg);
+  background-repeat: no-repeat;
+  // background-size: 100% 100vh;
+  z-index: -1;
+}
+
+#wrapper > span {
+  display: block;
+  // border: solid;
+  position: fixed;
+  z-index: -2;
+}
+
+#f1 {
+  width: 240px;
+  height: 300px;
+  background-image: url(/assets/blackHair.jpg);
+  background-repeat: no-repeat;
+  right: -300px;
+  top: 100px;
+}
+
+#f2 {
+  width: 100px;
+  height: 90px;
+  background-size: 800px;
+  background-image: url(/assets/eyecandyTriColor.jpg);
+  background-repeat: no-repeat;
+  top: 500px;
+
+}
+
+#f3 {
+  width: 150px;
+  height: 200px;
+  background-size: 150px;
+  background-image: url(/assets/hazepic.jpg);
+  background-repeat: no-repeat;
+  top: 80px;
+  right: 250px;
+  z-index: 3;
+}
+
+#f4 {
+  width: 650px;
+  height: 700px;
+  background-size: 650px;
+  background-image: url(/assets/paramore22.jpg);
+  background-repeat: no-repeat;
+  right: -200;
+  bottom: -300px;
+}
+
+#f5{
+  width:300px;
+  height: 390px;
+  background-size: 390px;
+  background-image: url(/assets/blackHair.jpg);
+  background-repeat: no-repeat;
+  right: -300px;
+  top: 500px;
+}
+
+#f6{
+  width: 700px;
+  height: 780px;
+  background-size: 650px;
+  background-image: url(/assets/bkPurpleHair.jpg);
+  background-repeat: no-repeat;
+  // top: 1px;
+  bottom: -250px;
+  z-index: -2
+}
+
+#f7{
+  width: 700px;
+  height: 780px;
+  background-size: 650px;
+  background-image: url(/assets/dkhair.jpg);
+  background-repeat: no-repeat;
+  // top: 1px;
+  top: -250px;
+  z-index: -2
+}
+
+// styling and positing of fonts
+
+#para1 {
+  position: fixed;
+  padding-left: 445;
+  top: 40px;
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  font-size: 50px;
+  z-index: 1
+
+}
+
+#para22 {
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+  z-index: 2;
+}
+
 .para1 {
   position: fixed;
   font-size: 12px;
@@ -9,13 +128,13 @@
   top: 470px;
   width: 170px;
   height: 189px;
-  left: 20px;
+  left: 40px;
   font-family: 'Antic Slab', serif;
   color: black;
 }
 
 .para2 {
-  position: fixed;
+  // position: fixed;
   font-size: 12px;
   text-align: center;
   top: 182px;
@@ -24,120 +143,114 @@
   left: 445px;
   color: black;
   font-family: 'Rye', cursive;
-  font-weight: lighter;
 }
 
 #para22 {
+  text-align: center;
   font-family: 'Rye', cursive;
   font-size: 18px;
 }
 
 #para33 {
+  text-align: center;
   font-family: 'Rye', cursive;
   font-size: 12px;
 }
 
 #para44 {
-  position: fixed;
+  // position: fixed;
   top: 170px;
   width: 200px;
   height: 189px;
   left: 1030px;
+  text-align: center;
   font-size: 14px;
   font-family: 'Phosphate',cursive;
 }
 
 #para55 {
-  position: fixed;
+  // position: fixed;
   top: 210px;
   width: 200px;
   height: 189px;
   left: 1030px;
+  text-align: center;
   font-size: 14px;
   font-family: 'HelveticaNeue', cursive;
 }
 
 #para66{
-  position: fixed;
+  // position: fixed;
   top: 360px;
   width: 268px;
   height: 189px;
   left: 1030px;
+  text-align: center;
   font-size: 14px;
   font-family: 'Rye', cursive;
   text-align: left;
 }
 
 #para77{
-  position: fixed;
+  // position: fixed;
   top: 409px;
   width: 268px;
   height: 189px;
   left: 1030px;
+  text-align: center;
   font-size: 14px;
   font-family: 'HelveticaNeue', cursive;
   text-align: left;
 }
-.para66shallowbx {
-  position: fixed;
-  top: 320px;
-  width: 270px;
-  height: 189px;
-  left: 1030px;
-  -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+// .para66shallowbx {
+//   position: fixed;
+//   top: 320px;
+//   width: 270px;
+//   height: 189px;
+//   left: 1030px;
+//   -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+//   -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+//   box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+// }
+
+#starwar {
+
+	position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 80%;
+	margin-left: -9em;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);
+  -webkit-transform:translateZ(-100px)
 }
 
+// A pseudo-element is applied to overlay a fade-out gradient at the top of the outer DIV:
+#starwar:after {
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+  -webkit-transform:translateZ(-50px)
 
-
-.homeLogo {
-  position: fixed;
-
-  top: -29.3px;
-  width: 767px;
-  height: 800.7px;
-  left: 245px;
 }
 
-.drawLogo {
-  position: relative;
-  top: 8px;
-  width: 50px;
-  height: 40px;
+#starwar-content {
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 4s infinite;
 }
 
-.nestle {
-  position: fixed;
-  top: 200px;
-  width: 120px;
-  height: 419px;
-  left: 230px;
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
 }
-
-.redLet{
-  position: fixed;
-  top: 420px;
-  width: 200px;
-  height: 189px;
-  left: 1130px;
-}
-
-iframe {
-    position: fixed;
-    top: 200px;
-    left: 20px;
-    width: 200px;
-    height: 250px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  iframe:hover {
-    background-color: #EE82EE;
-    top: 200px;
-    left: 20px;
-    width: 200px;
-    height: 250px;
-  }

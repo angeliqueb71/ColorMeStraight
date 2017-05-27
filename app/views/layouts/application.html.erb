@@ -1,29 +1,22 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title><%= content_for?(:title) ? yield(:title) : 'ColorMeStraight' %></title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
+    <meta charset= "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    
+
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto|Rye|Antic+Slab|Bungee+Shade|Diplomata|Faster+One|Monoton|Mystery+Quest|Special+Elite|Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rye|Antic+Slab|Bungee+Shade|Diplomata|Faster+One|Monoton|Mystery+Quest|Special+Elite|Vast+Shadow" rel="stylesheet">
   </head>
 
-  <body class="body1">
-    <div class="prlx-scroll-wrapper">
-      <%= image_tag('blankcolorpg.png', class: "logo") %>
-      <%= image_tag('pinklogo.png', class: "headerlogo") %>
-      <%= image_tag('blankcolorpg.png', class: "logo2") %>
-      <%= image_tag('clearpage.png', class: "logo3") %>
-
-    </div>
-
-    <div class="logoName">
-      Color Me Straight
-    </div>
+  <body>
+    <p id="para1">Color Me Straight</p>
 
 
     <nav class="nav1">
@@ -35,9 +28,13 @@
         <li><a href="/rooms">Chat In</a></li>
       </ul>
     </nav>
-
+      <div class="devise-alert">
        <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
+      </div>
+
+
     <%= yield %>
+
   </body>
 </html>
