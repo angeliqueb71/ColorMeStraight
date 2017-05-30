@@ -3,7 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //
 
+//fixed nav bar for Action cable / chat room
 
+.room-rooms {
+ font-family: 'Vast Shadow', cursive;
+ position: fixed;
+ top: 50px;
+ left: 10px;
+ width: 100%;
+ color: #454545;
+ height: 85px;
+}
+// .nav-rooms a {
+//   text-decoration: none;
+//   color: #454545;
+// }
+//
+// .nav-rooms a:hover {
+//   color: #feccc9;
+// }
+// ////////////////////
 
 .reset_2, caption, th, td {
   text-align: left;
@@ -13,12 +32,12 @@
 //
 // html {
 //   line-height: 1;
-//   // position: relative;
+//   position: relative;
 //   height: 100%;
 //   font-size: 16px;
 //   font-family: Lato, sans-serif;
 // }
-//
+
 // body {
 //   height: 100%;
 //   width: 100%;
@@ -26,7 +45,7 @@
 //   padding-top: 53px;
 //   padding-bottom: 64px;
 // }
-//
+
 blockquote {
   quotes: none;
 }
@@ -65,7 +84,7 @@ q:after {
   position: fixed;
   left: 50px;
   top: 250px;
-  height: 250px;
+  height: 260px;
 }
 // textarea input box
 .footer {
@@ -76,30 +95,30 @@ q:after {
   width: 100%;
 }
 
-shadow box color for Chat box
-.team-menu {
-  position: relative;
-  width: 220px;
-  height: 153px;
-  line-height: 53px;
-  font-weight: 900;
-  padding: 0 1rem;
-  color: #ffffff;
-  background: #3e313c;
-  border-bottom: 2px solid #372c36;
-  float: left;
-  cursor: pointer;
-}
-
-.channel-menu_name {
-  display: inline-block;
-  padding: 0 0.5rem 0 1.5rem;
-  color: #555459;
-  font-size: 1.4rem;
-  font-weight: 900;
-  line-height: 53px;
-  cursor: pointer;
-}
+// shadow box color for Chat box
+// .team-menu {
+//   position: relative;
+//   width: 220px;
+//   height: 153px;
+//   line-height: 53px;
+//   font-weight: 900;
+//   padding: 0 1rem;
+//   color: #ffffff;
+//   background: #3e313c;
+//   border-bottom: 2px solid #372c36;
+//   float: left;
+//   cursor: pointer;
+// }
+//
+// .channel-menu_name {
+//   display: inline-block;
+//   padding: 0 0.5rem 0 1.5rem;
+//   color: #555459;
+//   font-size: 1.4rem;
+//   font-weight: 900;
+//   line-height: 53px;
+//   cursor: pointer;
+// }
 
 
 
@@ -109,7 +128,7 @@ shadow box color for Chat box
   width: 251px;
   float: left;
   color: #ab9ba9;
-  background-color: #4d394b;
+  background-color: #AFAFAF;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -127,7 +146,7 @@ shadow box color for Chat box
 .listings_channels {
   margin: 1rem 0 2rem;
 }
-
+//color me straight header in side the shadow box
 .listings_header {
   text-align: left;
   font-size: 18px;
@@ -135,8 +154,8 @@ shadow box color for Chat box
   margin: 0 1rem 0.1rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ab9ba9;
-  width: 165px;
+  color: #575757;
+  width: 265px;
   position: relative;
 }
 
@@ -146,6 +165,7 @@ shadow box color for Chat box
 //   color: #ab9ba9;
 // }
 
+//text in side the shadow box
 .channel {
   height: 24px;
   line-height: 24px;
@@ -156,7 +176,7 @@ shadow box color for Chat box
   padding-left: 1rem;
 }
 .channel.active {
-  background: #4c9689;
+  background: #898989;
 }
 
 // writing inside sidebar
@@ -285,11 +305,11 @@ shadow box color for Chat box
 //   color: #ab9ba9;
 // }
 
-logout botton control size and size
+// logout botton control size and size
 .logout a:link {
   font-style: italic;
   color: black;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .input-box {
@@ -312,4 +332,101 @@ logout botton control size and size
   bottom: 0;
   min-height: 41px !important;
   padding: 9px 5px 9px 8px;
+}
+
+// devise sign-up /////////
+
+.devise-alert {
+  position: fixed;
+  top: 200px;
+  left: 450px;
+  font-size: 18px;
+}
+
+.signupDevise {
+  position: fixed;
+  top: 300px;
+  left: 200px;
+}
+
+// devise sign-in /////////
+
+.loginDevise {
+  position: fixed;
+  top: 300px;
+  left: 200px;
+}
+
+.userLinks {
+  position: fixed;
+  top: 470px;
+  left: 200px;
+}
+
+//devise forget pwd
+
+.forgetpwdDevise {
+  position: fixed;
+  top: 300px;
+  left: 200px;
+}
+
+//////Devise para
+
+.paraDevise {
+  position: fixed;
+  text-align: center;
+  top: 230px;
+  left: 440px;
+  height: 400px;
+  width: 650px;
+  font-size: 16px;
+  font-family: 'HelveticaNeue', cursive;
+  border: solid  17px #E7E7E7;
+  background-color: #E7E7E7;
+
+}
+
+//devise signup page
+
+.signupPara{
+  position: fixed;
+  text-align: center;
+  top: 230px;
+  left: 440px;
+  height: 400px;
+  width: 650px;
+  font-size: 16px;
+  font-family: 'HelveticaNeue', cursive;
+  border: solid  17px #E7E7E7;
+  background-color: #E7E7E7;
+}
+
+// input[type="text"], input[type="email"], input[type="password"], textarea {
+// 	width: 90%;
+// 	border: 1px solid #d6dce0;
+// 	border-radius: .35em;
+// 	margin-top: 10px;
+// 	padding: .5em 1em;
+// 	line-height: 1.75;
+// }
+input[type="text"] {
+	height: 35px;
+}
+textarea {
+	min-height: 80px;
+}
+
+input[type="submit"] {
+	outline: none;
+	background: transparent;
+	border: 1px solid #d6dce0;
+	padding: .5em 1.5em;
+	font-size: .9em;
+	border-radius: 1.5em;
+	margin-left: .5em;
+	&:hover {
+		border: 1px solid #33acb7;
+		color: #33acb7;
+	}
 }

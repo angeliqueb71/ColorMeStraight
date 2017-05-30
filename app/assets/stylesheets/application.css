@@ -14,7 +14,7 @@
  *= require_self
  */
  body {
-
+     margin: 0;
     /*background-color: #D5A3C0;*/
     /*background-color: #FAF5F8;*/
     background-color: #F8F1F5;
@@ -25,17 +25,16 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-
   }
 
   .nav1 {
    font-family: 'Vast Shadow', cursive;
-   position: fixed;
+   position: absolute;
    top: 0px;
    left: 0px;
    width: 100%;
    z-index: 11;
-   padding: 15px;
+   padding: 35px;
    color: #454545;
    /*border-bottom: 3px solid #454545;*/
    height: 85px;
