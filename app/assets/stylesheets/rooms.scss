@@ -3,6 +3,31 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //
 
+//logo header on page
+  #para-b1 {
+    position: fixed;
+    padding-left: 445;
+    top: 40px;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 50px;
+    z-index: 1;
+    border-radius: 9px;
+    border: 200em;
+    background-color: #9C90A3;
+  }
+
+  #education-center-1 {
+    position: fixed;
+    padding-left: 530px;
+    top: 120px;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 19px;
+    z-index: 1;
+  }
+
+
 //fixed nav bar for Action cable / chat room
 
 .room-rooms {
@@ -377,7 +402,7 @@ q:after {
   position: fixed;
   text-align: center;
   top: 230px;
-  left: 440px;
+  left: 410px;
   height: 400px;
   width: 650px;
   font-size: 16px;
@@ -393,13 +418,14 @@ q:after {
   position: fixed;
   text-align: center;
   top: 230px;
-  left: 440px;
+  left: 500px;
   height: 400px;
-  width: 650px;
+  width: 550px;
   font-size: 16px;
   font-family: 'HelveticaNeue', cursive;
   border: solid  17px #E7E7E7;
   background-color: #E7E7E7;
+  border-radius: 3;
 }
 
 // input[type="text"], input[type="email"], input[type="password"], textarea {

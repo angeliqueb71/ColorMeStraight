@@ -33,6 +33,29 @@
   //   border-top: 5px solid #454545;
   //   height: 85px;
   // }
+//logo header on page
+  #para1 {
+    position: absolute;
+    padding-left: 445;
+    top: 40px;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 50px;
+    z-index: 1;
+    border-radius: 9px;
+    border: 200em;
+    background-color: #9C90A3;
+  }
+
+  #education-center {
+    position: absolute;
+    padding-left: 530px;
+    top: 120px;
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    font-size: 19px;
+    z-index: 1;
+  }
 
   h3,h4 {
     font-family:"Lato", sans-serif
@@ -57,5 +80,14 @@
 
     font-size: 1em;
     color: lightgrey;
-    margin-top: 50px
+    margin-top: 30px
+  }
+  #plans {
+    margin-top: 180px
+  }
+
+  .w3-card-4 {
+    width: 410px;
+    height: 1600px;
+
   }

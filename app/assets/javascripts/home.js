@@ -25,21 +25,24 @@ var f10 = document.getElementById("f10");
 
 function initParallax(){
 
-  f1.style.right = ((window.pageYOffset/5)-300) + "px";
-  f2.style.top = ((window.pageYOffset/5)+500)
-  f3.style.right = ((window.pageYOffset/2)+250) + "px";
+
+
+  f1.style.right = ((window.pageYOffset/9)-1000) + "px";
+  f2.style.top = ((window.pageYOffset/5)+500) + "px";
+  f3.style.left = ((window.pageYOffset/1)+450) + "px";
 
   // moves it diagonal
-  f4.style.right = ((window.pageYOffset/6)-200) + "px";
-  f4.style.bottom = ((window.pageYOffset/15)-300)
+  f4.style.left = ((window.pageYOffset/6)-200) + "px";
+  f4.style.bottom = ((window.pageYOffset/15)-300) + "px";
 
   f5.style.right = ((window.pageYOffset/12)-300) + "px";
 
   // moves it diagonal
   // f6.style.top = ((window.pageYOffset/2)+1)+ "px";
-  f6.style.bottom = ((window.pageYOffset/5)-350) + "px";
+  f6.style.top = ((window.pageYOffset/4)-350) + "px";
 
-  f7.style.top = ((window.pageYOffset/6)-50) + "px";
+  f7.style.top = ((window.pageYOffset/3)-50) + "px";
+
 
 
 }

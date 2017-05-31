@@ -2,125 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+//logo header on page
+#para1 {
+  position: absolute;
+  padding-left: 445;
+  top: 40px;
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  font-size: 50px;
+  z-index: 1;
+  border-radius: 9px;
+  border: 200em;
+  background-color: #9C90A3;
+}
 
-// .chemicalWrapper {
-//   height: 50%;
-//   width: 100%;
-// }
-//
-// .chemicalview {
-//   height: 100%;
-//   // background-color: lightgreen;
-// }
-//
-// .surroundContainer {
-//   height: 100%;
-//   overflow: auto;
-//   white-space: nowrap;
-// }
-//
-// .hPage {
-//   display: inline-block;
-//   height: 100%;
-//   width: 100%;
-//   background-color: lightblue;
-// }
-//
-// .hPage1-container {
-//   position: absolute;
-//   padding: 45px;
-//   height: 200px;
-//   width: 200px;
-//   top: 400px;
-//   border: 3px solid #454545;
-//   background-color: lightblue;
-// }
-
-// .hPage1-container {
-//   position: absolute;
-//   width: 200px;
-//   height: 200px;
-// }
-//
-// .hPage2-container {
-//   position: absolute;
-//   width: 200px;
-//   height: 200px;
-//   left: 200px;
-// }
-//
-// .hPage3-container {
-//   position: absolute;
-//   width: 200px;
-//   height: 200px;
-//   left: 400px;
-// }
-//
-// .hPage4-container {
-//   position: absolute;
-//   width: 200px;
-//   height: 200px;
-//   left: 600px;
-// }
+#education-center {
+  position: absolute;
+  padding-left: 530px;
+  top: 120px;
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  font-size: 19px;
+  z-index: 1;
+}
 
 
 
-
-// input, textarea, select {
-//   font: 100% "MuseoSlab500", Tahoma, Arial, sans-serif;
-//   color: #717174;
-//   vertical-align: middle;
-//   overflow: auto;
-// }
-
-// .chemVideo1 {
-//   position: absolute;
-//   margin-left: 2em;
-//   margin-top: 15em;
-//   padding-left: 10px;
-//   border-spacing: 7px;
-//   border: 7px solid gray;
-//   border-collapse: separate;
-//
-// }
-//
-// .chemVideo2{
-//   position: absolute;
-//   margin-left: 22em;
-//   margin-top: 15em;
-//   padding-left: 10px;
-//   border-spacing: 7px;
-//   border: 5px solid gray;
-//   border-collapse: separate;
-//
-//
-//
-// }
-//
-// .chemVideo3{
-//   position: absolute;
-//   margin-left: 42em;
-//   margin-top: 15em;
-//   padding-left: 10px;
-//   border-spacing: 7px;
-//   border: 5px solid gray;
-//   border-collapse: separate;
-//
-//
-//
-// }
-//
-// .chemVideo4{
-//   position: absolute;
-//   margin-left:62em;
-//   margin-top: 15em;
-//   padding-left: 10px;
-//   border-spacing: 7px;
-//   border: 5px solid gray;
-//   border-collapse: separate;
-//
-//
-// }
 // creates the grey shaded box where holds the text
 .chemVideo {
     border-collapse: separate;
@@ -129,7 +36,8 @@
     // float: left;
     flex-wrap: nowrap;
     padding-left: 0em;
-    background-color: #A69EAE;
+    background-color: #F4F4F4;
+    // background-color: #ABABAB;
     padding: 5em;
 }
 
@@ -258,6 +166,25 @@ table th, table td {
   height: 20em
 }
 
+//caring for the hair info
+
+// .caring-for-hair{
+     
+//   padding-top: 10em;
+//   padding-left: 1em;
+//   text-align: center;
+// }
+//
+// .caring-info {
+//   padding-top: 1em;
+//   padding-left: 14em;
+//   width: 55em;
+//   height: 100em;
+//   border-color: #B6B1B9;
+//   border: solid 2 #B6B1B9;
+//
+// }
+
 .chemPic1 {
   position: absolute;
   width: 10%;
@@ -265,15 +192,19 @@ table th, table td {
 }
 // contact info
 .chem-contact1 {
-  padding: 12em;
+  position: absolute;
+  padding-bottom: 5em;
+  padding-left: 37em;
+  top: 240em;
+
   font-size: 1em;
   text-align: center;
   font-family: 'Vast Shadow', cursive;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .chem-contact2 {
-  padding: 10em;
+  padding-top: -9em;
   font-size: 1.7em;
   text-align: center;
   font-family: 'Vast Shadow', cursive;
@@ -282,110 +213,111 @@ table th, table td {
 }
 
 // email info
-
-.chem-section-name{
-  border-collapse: separate;
-  margin-left: 2em;
-  margin-top: -8em;
-  padding-left: 2em;
-  background-color: #DBD8DE;
-  padding: 1em;
-  width: 57.5em;
-}
-
-.chem-section-name{
-  display: inline-table;
-  border-width: 0;
-  border: solid 6px;
-  border-spacing: 1px;
-  border-color: #DBD8DE;
-  font-size: 1.3em;
-}
-
-.chem-section-email{
-  border-collapse: separate;
-  margin-left: 2em;
-  margin-top: -3em;
-  padding-left: 2em;
-  background-color: #DBD8DE;
-  padding: 1em;
-  width: 57.5em;
-}
-
-.chem-section-email{
-  display: inline-table;
-  border-width: 0;
-  border: solid 6px;
-  border-spacing: 1px;
-  border-color: #DBD8DE;
-  font-size: 1.3em;
-}
-
-.chem-section-subject{
-  border-collapse: separate;
-  margin-left: 2em;
-  margin-top: 1em;
-  padding-left: 2em;
-  background-color: #DBD8DE;
-  padding: 1em;
-  width: 57.5em;
-}
-
-.chem-section-subject{
-  display: inline-table;
-  border-width: 0;
-  border: solid 6px;
-  border-spacing: 1px;
-  border-color: #DBD8DE;
-  font-size: 1.3em;
-}
-
-.chem-section-message{
-  border-collapse: separate;
-  margin-left: 2em;
-  margin-top: 1.2em;
-  padding-left: 2em;
-  background-color: #DBD8DE;
-  padding: 1em;
-  width: 57.5em;
-}
-
-.chem-section-message{
-  display: inline-table;
-  border-width: 0;
-  border: solid 6px;
-  border-spacing: 1px;
-  border-color: #DBD8DE;
-  font-size: 1.3em;
-}
-
-.chem-input {
-  position: absolute;
-  font-size: 1.3em;
-  padding-left: 1em;
-  border-bottom: 6.1em;
-  border-collapse: separate;
-  left: 6em;
-}
-
-
-// footer
-
-.chem-button-send {
-  border-collapse: separate;
-  margin-left: 2.5em;
-  margin-top: 1.5em;
-  padding-left: 3em;
-  background-color: #A69EAE;
-  padding: 1em;
-  font-size: 1em;
-  width: 78.2em;
-
-}
+// .chem-section-name{
+//   border-collapse: separate;
+//   margin-left: 2em;
+//   margin-top: -8em;
+//   padding-left: 2em;
+//   background-color: #DBD8DE;
+//   padding: 1em;
+//   width: 57.5em;
+// }
+//
+// .chem-section-name{
+//   display: inline-table;
+//   border-width: 0;
+//   border: solid 6px;
+//   border-spacing: 1px;
+//   border-color: #DBD8DE;
+//   font-size: 1.3em;
+// }
+//
+// .chem-section-email{
+//   border-collapse: separate;
+//   margin-left: 2em;
+//   margin-top: -3em;
+//   padding-left: 2em;
+//   background-color: #DBD8DE;
+//   padding: 1em;
+//   width: 57.5em;
+// }
+//
+// .chem-section-email{
+//   display: inline-table;
+//   border-width: 0;
+//   border: solid 6px;
+//   border-spacing: 1px;
+//   border-color: #DBD8DE;
+//   font-size: 1.3em;
+// }
+//
+// .chem-section-subject{
+//   border-collapse: separate;
+//   margin-left: 2em;
+//   margin-top: 1em;
+//   padding-left: 2em;
+//   background-color: #DBD8DE;
+//   padding: 1em;
+//   width: 57.5em;
+// }
+//
+// .chem-section-subject{
+//   display: inline-table;
+//   border-width: 0;
+//   border: solid 6px;
+//   border-spacing: 1px;
+//   border-color: #DBD8DE;
+//   font-size: 1.3em;
+// }
+//
+// .chem-section-message{
+//   border-collapse: separate;
+//   margin-left: 2em;
+//   margin-top: 1.2em;
+//   padding-left: 2em;
+//   background-color: #DBD8DE;
+//   padding: 1em;
+//   width: 57.5em;
+// }
+//
+// .chem-section-message{
+//   display: inline-table;
+//   border-width: 0;
+//   border: solid 6px;
+//   border-spacing: 1px;
+//   border-color: #DBD8DE;
+//   font-size: 1.3em;
+// }
+//
+// .chem-input {
+//   position: absolute;
+//   font-size: 1.3em;
+//   padding-left: 1em;
+//   border-bottom: 6.1em;
+//   border-collapse: separate;
+//   left: 6em;
+// }
+//
+//
+// // footer
+//
+// .chem-button-send {
+//   border-collapse: separate;
+//   margin-left: 2.5em;
+//   margin-top: 1.5em;
+//   padding-left: 3em;
+//   background-color: #A69EAE;
+//   padding: 1em;
+//   font-size: 1em;
+//   width: 78.2em;
+//
+// }
 
 .chem-footer {
+  position: absolute;
+  top: 180em;
+  left: 8em;
   text-align: center;
-  padding: 32px;
   font-size: 1.4em;
   background-color: #F5F5F5;
 }
