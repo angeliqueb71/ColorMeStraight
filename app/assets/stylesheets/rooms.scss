@@ -247,7 +247,7 @@ q:after {
   border-radius: 0.2rem;
   width: 36px;
   height: 36px;
-  // background-image: image-url(colorimg.jpg);
+  // background-image: image-url("colorimg.jpg)";
   background-size: cover;
 }
 
@@ -303,7 +303,7 @@ q:after {
   border-radius: 0.2rem;
   width: 48px;
   height: 48px;
-  background-image: image-url(colorimg.jpg);
+  background-image: image-url("colorimg.jpg");
   background-size: cover;
   margin-right: 8px;
 }
