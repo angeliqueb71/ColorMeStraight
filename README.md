@@ -1,4 +1,5 @@
-# README
+# ColorMeStraight
+# ColorMeStraight_copy
 
 What this site is about:
 - Live Chat - 
@@ -21,8 +22,7 @@ Things you may want to cover:
 * Action Cable
 * Pure-CSS Parallax Scrolling
 
-# ColorMeStraight
-# ColorMeStraight_copy
+
 --------------------------------------------------------------------------------------------------------------------------------------------------
 WebSockets are a protocol built on top of TCP. They hold the connection to the server open so that the server can send information to the client, even in the absence of a request from the client. WebSockets allow for bi-directional, "full-duplex" communication between the client and the server by creating a persistent connection between the two.
 
