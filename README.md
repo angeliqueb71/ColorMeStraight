@@ -1,7 +1,33 @@
+THANK YOU TO THE STAFF OF NYCDA!!
+ORLANDO - DAN - ISAAC - FINZAL - NICOLE - SAM
+
+-AMENEDA -
+
+A BIG THANK YOU!!!!
+
+
+NEW FRIENDS FOR LIFE - THANKS FOR ALWAYS KEEPING ME CALM - AND HELPING ME BECOME THE CODER I AM!!!
+
+Kerry - Juliet - Jeannette
+
+
+___________________________________________________________________________________________________________________________________________________
+
+Cosmo - schools - students -
+Educators 
+
+
+
+
+
+
+
+
+
 # README
 
 What this site is about:
-- Live Chat - 
+- Live Chat -
 We are an online Education Center
  Built on integrity, innovation,
 and love—for you and for your hair.
@@ -67,4 +93,4 @@ You want the generated content to come before the element content, positionally.
 ::after content is also "after" in source-order, so it will position on top of ::before if stacked on top of each other naturally.
 
 https://css-tricks.com/almanac/selectors/a/after-and-before/
-# ColorMeStraight_copy
+________________________________________________________________________________________________________________________________________________________________
