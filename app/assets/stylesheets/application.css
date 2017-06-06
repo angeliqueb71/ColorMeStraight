@@ -44,7 +44,7 @@
     display: inline;
     position: relative;
     left: 500px;
-    top: 90px
+    top: 90px;
     letter-spacing: 0.2em;
     margin-right: 150px;
   }
@@ -73,5 +73,3 @@
   .nav1 a:hover {
     color: #feccc9;
   }
-
-  
