@@ -1,30 +1,7 @@
-THANK YOU TO THE STAFF OF NYCDA!!
-ORLANDO - DAN - ISAAC - FINZAL - NICOLE - SAM
 
--AMENEDA -
-
-A BIG THANK YOU!!!!
+# ColorMeStraight
 
 
-NEW FRIENDS FOR LIFE - THANKS FOR ALWAYS KEEPING ME CALM - AND HELPING ME BECOME THE CODER I AM!!!
-
-Kerry - Juliet - Jeannette
-
-
-___________________________________________________________________________________________________________________________________________________
-
-Cosmo - schools - students -
-Educators 
-
-
-
-
-
-
-
-
-
-# README
 
 What this site is about:
 - Live Chat -
@@ -47,9 +24,8 @@ Things you may want to cover:
 * Action Cable
 * Pure-CSS Parallax Scrolling
 
-# ColorMeStraight
-# ColorMeStraight_copy
---------------------------------------------------------------------------------------------------------------------------------------------------
+
+______________________________________________________________________________________________________________________________________________________
 WebSockets are a protocol built on top of TCP. They hold the connection to the server open so that the server can send information to the client, even in the absence of a request from the client. WebSockets allow for bi-directional, "full-duplex" communication between the client and the server by creating a persistent connection between the two.
 
 https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable
@@ -59,7 +35,7 @@ it provides both a client-side JavaScript framework, and a server-side Ruby fram
 
 where to find code: folder: JavaScript/rooms.coffee, cable.js
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+______________________________________________________________________________________________________________________________________________________
 
 
 CSS Parallax Scrolling
@@ -93,4 +69,3 @@ You want the generated content to come before the element content, positionally.
 ::after content is also "after" in source-order, so it will position on top of ::before if stacked on top of each other naturally.
 
 https://css-tricks.com/almanac/selectors/a/after-and-before/
-________________________________________________________________________________________________________________________________________________________________
