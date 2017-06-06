@@ -67,4 +67,4 @@ You want the generated content to come before the element content, positionally.
 ::after content is also "after" in source-order, so it will position on top of ::before if stacked on top of each other naturally.
 
 https://css-tricks.com/almanac/selectors/a/after-and-before/
-# ColorMeStraight_copy
+
