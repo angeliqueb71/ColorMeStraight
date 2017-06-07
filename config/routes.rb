@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/chemicals' => 'chemicals#index'
 
   get '/color' => 'color#index'
+  
 
   resources :messages
 

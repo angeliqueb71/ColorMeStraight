@@ -11,3 +11,14 @@
   App.cable = ActionCable.createConsumer();
 
 }).call(this);
+
+
+
+// ActionCable = require('actioncable')
+//
+// var cable = ActionCable.createConsumer('wss://RAILS-API-PATH.com/cable')
+//
+// cable.subscriptions.create('AppearanceChannel', {
+//   // normal channel code goes here...
+// });
+//
