@@ -39,10 +39,10 @@ body{
   }
 
 .ndbcImg {
-  position: relative;
-  width: 1400px;
-  height: 1280px;
-  background-size: 100%;
+  position: fixed;
+  width: 1800px;
+  height: 1080px;
+  background-size: cover;
   background-repeat:  no-repeat;
   background-image: image-url("strightPink.jpg");
 }
@@ -340,10 +340,10 @@ body{
     }
 
   .ndbcImg {
-    position: relative;
-    width: 1400px;
-    height: 1280px;
-    background-size: 100%;
+    position: fixed;
+    width: 1800px;
+    height: 1080px;
+    background-size: cover;
     background-repeat:  no-repeat;
     background-image: image-url("strightPink.jpg");
   }
@@ -641,12 +641,12 @@ body{
       }
 
     .ndbcImg {
-      position: relative;
-      width: 1400px;
-      height: 1280px;
-      background-size: 100%;
-      background-repeat:  no-repeat;
-      background-image: image-url("strightPink.jpg");
+       position: fixed;
+       width: 1800px;
+       height: 1080px;
+       background-size: cover;
+       background-repeat:  no-repeat;
+       background-image: image-url("strightPink.jpg");
     }
 
     // #wrapper {
@@ -942,10 +942,10 @@ body{
       }
 
     .ndbcImg {
-      position: relative;
-      width: 1400px;
-      height: 1280px;
-      background-size: 100%;
+      position: fixed;
+      width: 1800px;
+      height: 1080px;
+      background-size: cover;
       background-repeat:  no-repeat;
       background-image: image-url("strightPink.jpg");
     }
