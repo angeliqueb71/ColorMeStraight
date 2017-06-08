@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-@media (min-width: 400px) {
+@media (max-width: 1200px) {
 
  body {
      margin: 0;
@@ -79,24 +79,24 @@
 
   /* Larger than phablet */
 
- @media (min-width: 550px) {
+ @media (max-width: 1000px) {
 
  }
 
  /* Larger than tablet */
 
- @media (min-width: 750px) {
+ @media (max-width: 750px) {
 
  }
 
  /* Larger than desktop */
 
- @media (min-width: 1000px) {
+ @media (max-width: 550px) {
 
  }
 
  /* Larger than desktop HD*/
 
- @media (min-width: 1200px) {
+ @media (min-width: 400px) {
 
  }

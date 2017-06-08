@@ -1,7 +1,7 @@
 // Place all the styles related to the chemicals controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+@media (max-width: 1200px) {
 //logo header on page
 #para1 {
   position: absolute;
@@ -212,106 +212,6 @@ table th, table td {
 
 }
 
-// email info
-// .chem-section-name{
-//   border-collapse: separate;
-//   margin-left: 2em;
-//   margin-top: -8em;
-//   padding-left: 2em;
-//   background-color: #DBD8DE;
-//   padding: 1em;
-//   width: 57.5em;
-// }
-//
-// .chem-section-name{
-//   display: inline-table;
-//   border-width: 0;
-//   border: solid 6px;
-//   border-spacing: 1px;
-//   border-color: #DBD8DE;
-//   font-size: 1.3em;
-// }
-//
-// .chem-section-email{
-//   border-collapse: separate;
-//   margin-left: 2em;
-//   margin-top: -3em;
-//   padding-left: 2em;
-//   background-color: #DBD8DE;
-//   padding: 1em;
-//   width: 57.5em;
-// }
-//
-// .chem-section-email{
-//   display: inline-table;
-//   border-width: 0;
-//   border: solid 6px;
-//   border-spacing: 1px;
-//   border-color: #DBD8DE;
-//   font-size: 1.3em;
-// }
-//
-// .chem-section-subject{
-//   border-collapse: separate;
-//   margin-left: 2em;
-//   margin-top: 1em;
-//   padding-left: 2em;
-//   background-color: #DBD8DE;
-//   padding: 1em;
-//   width: 57.5em;
-// }
-//
-// .chem-section-subject{
-//   display: inline-table;
-//   border-width: 0;
-//   border: solid 6px;
-//   border-spacing: 1px;
-//   border-color: #DBD8DE;
-//   font-size: 1.3em;
-// }
-//
-// .chem-section-message{
-//   border-collapse: separate;
-//   margin-left: 2em;
-//   margin-top: 1.2em;
-//   padding-left: 2em;
-//   background-color: #DBD8DE;
-//   padding: 1em;
-//   width: 57.5em;
-// }
-//
-// .chem-section-message{
-//   display: inline-table;
-//   border-width: 0;
-//   border: solid 6px;
-//   border-spacing: 1px;
-//   border-color: #DBD8DE;
-//   font-size: 1.3em;
-// }
-//
-// .chem-input {
-//   position: absolute;
-//   font-size: 1.3em;
-//   padding-left: 1em;
-//   border-bottom: 6.1em;
-//   border-collapse: separate;
-//   left: 6em;
-// }
-//
-//
-// // footer
-//
-// .chem-button-send {
-//   border-collapse: separate;
-//   margin-left: 2.5em;
-//   margin-top: 1.5em;
-//   padding-left: 3em;
-//   background-color: #A69EAE;
-//   padding: 1em;
-//   font-size: 1em;
-//   width: 78.2em;
-//
-// }
 
 .chem-footer {
   position: absolute;
@@ -338,3 +238,130 @@ table th, table td {
 
   	}
   }
+}
+
+/* Larger than phablet */
+
+@media (max-width: 1000px) {
+
+}
+
+/* Larger than tablet */
+
+@media (max-width: 750px) {
+
+}
+
+/* Larger than desktop */
+
+@media (max-width: 550px) {
+
+}
+
+/* Larger than desktop HD*/
+
+@media (min-width: 400px) {
+
+}
+
+
+  // email info
+  // .chem-section-name{
+  //   border-collapse: separate;
+  //   margin-left: 2em;
+  //   margin-top: -8em;
+  //   padding-left: 2em;
+  //   background-color: #DBD8DE;
+  //   padding: 1em;
+  //   width: 57.5em;
+  // }
+  //
+  // .chem-section-name{
+  //   display: inline-table;
+  //   border-width: 0;
+  //   border: solid 6px;
+  //   border-spacing: 1px;
+  //   border-color: #DBD8DE;
+  //   font-size: 1.3em;
+  // }
+  //
+  // .chem-section-email{
+  //   border-collapse: separate;
+  //   margin-left: 2em;
+  //   margin-top: -3em;
+  //   padding-left: 2em;
+  //   background-color: #DBD8DE;
+  //   padding: 1em;
+  //   width: 57.5em;
+  // }
+  //
+  // .chem-section-email{
+  //   display: inline-table;
+  //   border-width: 0;
+  //   border: solid 6px;
+  //   border-spacing: 1px;
+  //   border-color: #DBD8DE;
+  //   font-size: 1.3em;
+  // }
+  //
+  // .chem-section-subject{
+  //   border-collapse: separate;
+  //   margin-left: 2em;
+  //   margin-top: 1em;
+  //   padding-left: 2em;
+  //   background-color: #DBD8DE;
+  //   padding: 1em;
+  //   width: 57.5em;
+  // }
+  //
+  // .chem-section-subject{
+  //   display: inline-table;
+  //   border-width: 0;
+  //   border: solid 6px;
+  //   border-spacing: 1px;
+  //   border-color: #DBD8DE;
+  //   font-size: 1.3em;
+  // }
+  //
+  // .chem-section-message{
+  //   border-collapse: separate;
+  //   margin-left: 2em;
+  //   margin-top: 1.2em;
+  //   padding-left: 2em;
+  //   background-color: #DBD8DE;
+  //   padding: 1em;
+  //   width: 57.5em;
+  // }
+  //
+  // .chem-section-message{
+  //   display: inline-table;
+  //   border-width: 0;
+  //   border: solid 6px;
+  //   border-spacing: 1px;
+  //   border-color: #DBD8DE;
+  //   font-size: 1.3em;
+  // }
+  //
+  // .chem-input {
+  //   position: absolute;
+  //   font-size: 1.3em;
+  //   padding-left: 1em;
+  //   border-bottom: 6.1em;
+  //   border-collapse: separate;
+  //   left: 6em;
+  // }
+  //
+  //
+  // // footer
+  //
+  // .chem-button-send {
+  //   border-collapse: separate;
+  //   margin-left: 2.5em;
+  //   margin-top: 1.5em;
+  //   padding-left: 3em;
+  //   background-color: #A69EAE;
+  //   padding: 1em;
+  //   font-size: 1em;
+  //   width: 78.2em;
+  //
+  // }
