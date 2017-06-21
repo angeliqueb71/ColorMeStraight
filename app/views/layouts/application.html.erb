@@ -8,8 +8,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <link rel="stylesheet" href="http://www.w3.org/1999/xhtml"> -->
 
-
+    <!-- <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
 
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rye|Antic+Slab|Bungee+Shade|Diplomata|Faster+One|Monoton|Mystery+Quest|Special+Elite|Vast+Shadow" rel="stylesheet">
@@ -18,23 +19,13 @@
   <body>
 
 
-
-    <nav class="nav1">
-      <h2></h2>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/color">Color</a></li>
-        <li><a href="/chemicals">Thermal Reconditioning</a></li>
-        <li><a href="/rooms">Chat In</a></li>
-      </ul>
-    </nav>
       <div class="devise-alert">
        <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
       </div>
 
-
     <%= yield %>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
 
   </body>
 </html>

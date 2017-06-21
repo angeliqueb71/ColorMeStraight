@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //
-@media (max-width: 1200px) {
+
 //logo header on page
   #para-b1 {
     position: fixed;
@@ -54,22 +54,6 @@
   font-weight: normal;
   vertical-align: middle;
 }
-//
-// html {
-//   line-height: 1;
-//   position: relative;
-//   height: 100%;
-//   font-size: 16px;
-//   font-family: Lato, sans-serif;
-// }
-
-// body {
-//   height: 100%;
-//   width: 100%;
-//   margin: 0;
-//   padding-top: 53px;
-//   padding-bottom: 64px;
-// }
 
 blockquote {
   quotes: none;
@@ -403,29 +387,4 @@ input[type="submit"] {
 		border: 1px solid #33acb7;
 		color: #33acb7;
 	}
-}
-}
-
-/* Larger than phablet */
-
-@media (max-width: 1000px) {
-
-}
-
-/* Larger than tablet */
-
-@media (max-width: 750px) {
-
-}
-
-/* Larger than desktop */
-
-@media (max-width: 550px) {
-
-}
-
-/* Larger than desktop HD*/
-
-@media (min-width: 400px) {
-
 }

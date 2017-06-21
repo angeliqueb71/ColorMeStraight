@@ -2,200 +2,570 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/* Larger than mobile */
-@media (max-width: 1900px) {
 
-* {
-  padding: 0;
-  margin: 0px auto;
-}
-
-// control parallx
-
-body{
-  height: 0;
-}
-
-//logo header on page
-  #para-1 {
-    position: absolute;
-    padding-left: 460;
-    top: 40px;
-    text-align: center;
-    font-family: 'Antic Slab', serif;
-    font-size: 50px;
-    z-index: 1;
-
-  }
-
-  #education-center {
-    position: absolute;
-    padding-left: 530px;
-    top: 120px;
-    text-align: center;
-    font-family: 'Antic Slab', serif;
-    font-size: 19px;
-    z-index: 1;
-  }
-
-.ndbcImg {
-  position: fixed;
-  width: 1800px;
-  height: 1080px;
-  background-size: cover;
-  background-repeat:  no-repeat;
-  background-image: image-url("strightPink.jpg");
-}
-
-// #wrapper {
+// body {
+//   margin: 0;
+//   font-family: serif;
+//   color: grey;
+//   font-size: 1.125rem;
+//  }
+//
+//  body.toggled {
+//    overflow: hidden;
+//  }
+//
+// // sidebar nav
+// #sidenav {
 //   position: absolute;
-//   width: 100%;
+//   width: 330px;
 //   height: 100vh;
-//   background-position: center;
-//   background-image: image-url("pinkhair.jpg");
-//   background-repeat: repeat;
-//   opacity: 2;
-//   // background-size: 100% 100vh;
-//   z-index: -1;
+//   background-color: #fff;
+//   right: 0;
 // }
 //
-// #wrapper > span {
-//   display: block;
-//   // border: solid;
-//   position: fixed;
-//   z-index: -2;
+//  header {
+//    position: relative;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//   //  background-color: #452446;
+//    background-color: #FAF5F9;
+//    background-image: url();
+//    background-size: cover;
+//    text-align: center;
+//    padding-bottom: 110px;
+//    margin: 0;
+//  }
+//
+//  .nav1 {
+//   position: relative;
+//   width: 100%;
+//   height: 150px;
+//   top: 0;
+//   color: #454545;
+//   font-family: 'Antic Slab', serif;
+//   text-align: center;
+//   /*border-bottom: 3px solid #454545;*/
+//  }
+//
+//
+//
+//  .nav1 a:first-child:link {
+//    text-decoration: none;
+//    color: #454545;
+//
+//  }
+//
+//  .nav1 a:first-child:visited {
+//    text-decoration: none;
+//    color: #D5A3C0;
+//  }
+//
+//  .nav1 a:first-child img {
+//    width: 100%;
+//    height: 100vh;
+//    margin-top: 25px;
+//  }
+//
+//  .nav1 a:hover {
+//    color: #feccc9;
+//  }
+//
+//  #slide-toggle:link {
+//    position: absolute;
+//    right: 30px;
+//    top: 30px;
+//    font-size: 30px;
+//    color: #000;
+//  }
+//
+//  #slide-toggle:visited {
+//    color: #454545;
+//    text-decoration: none;
+//  }
+//
+//  .moto {
+//    position: relative;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//
+//    font-size: 65px;
+//    line-height: 1.3;
+//    color: #000;
+//    max-width: 970px;
+//    text-align: center;
+//    letter-spacing: 0.1em;
+//    word-break: break-word;
+//    word-wrap: break-word;
+//    margin-top: 50px auto 50px auto;
+//  }
+//
+//  .main-img {
+//    position: relative;
+//    background-image: url('pinkhair.jpg');
+//    max-width: 721px;
+//    width: 721px;
+//    height: 748px;
+//    left: 50%;
+//    margin-left: -360.5px;
+//  }
+//
+//  .goal {
+//    position: relative;
+//    font-family: 'Raleway', sans-serif;
+//    font-weight: lighter;
+//    font-size: 20px;
+//    max-width: 970px;
+//    letter-spacing: 0.2em;
+//    font-size: 20px;
+//    text-align: center;
+//    margin: 50px auto 50px auto;
+//    line-height: 1.8;
+//  }
+//
+//  #app-header:link {
+//    color: #000;
+//    text-decoration: none;
+//    font-family: 'Raleway', sans-serif;
+//    font-weight: 700;
+//    text-align: center;
+//    letter-spacing: 0.2em;
+//    padding: 22px 40px;
+//    border: 2px solid black;
+//    background: transparent;
+//    text-transform: uppercase;
+//    font-size: 20px;
+//    transition: all 0.8s ease-in-out;
+//    -webkit-transition: all 0.8s ease-in-out;
+//    -moz-transition: all 0.8s ease-in-out;
+//    -o-transition: all 0.8s ease-in-out;
+//
+//  }
+//
+//  #app-header:visited {
+//    text-decoration: none;
+//  }
+//
+//  #app-header:hover {
+//    background-color: #9772B3;
+//  }
+//
+//  // card holder css
+//
+//  .card-holder {
+//    position: relative;
+//    color: #D5D2D6;
+//    width: 100%;
+//    background-color: #fff;
+//    top: 0;
+//    text-align: center;
+//  }
+//
+//  #card-holder-title {
+//    position: relative;
+//    margin: 0;
+//    padding: 20px;
+//    text-align: center;
+//   //  background-color: #FBEBD1;
+//   font-family: 'Raleway', sans-serif;
+//   max-width: 970px;
+//   font-size: 35px;
+//   font-weight: 700;
+//   letter-spacing: 0.2em;
+//   text-transform: uppercase;
+//
+//  }
+//
+//  .home-card {
+//    position: relative;
+//    width: 50%;
+//    height: 450;
+//    border-bottom: 2px solid #000;
+//    border-top: 2px solid #000;
+//    margin: 0;
+//  }
+//
+//  .home-card a:link {
+//    color: black;
+//    text-decoration: none;
+//    font-family: 'Raleway', sans-serif;
+//    font-weight: 700;
+//    font-size: 35px;
+//    line-height: 1.3;
+//    letter-spacing: 0.1em;
+//  }
+//
+//  .home-card a:visited {
+//    color: #fff;
+//    text-decoration: none;
+//    font-family: 'Raleway', sans-serif;
+//    font-weight: 700;
+//    font-size: 30px;
+//  }
+//
+//  .home-card.left {
+//    float: left;
+//    left: 0;
+//    background-color: #CCCADE;
+//  }
+//
+//  .home-card.right {
+//    float: right;
+//    right: 0;
+//    background-color: #C4C8A7;
+//  }
+//
+//  .color {
+//    background-image: url(assets/img/dkhair.jpg);
+//    background-size: cover;
+//    opacity: 1;
+//    background-position: center center;
+//    background-repeat: no-repeat;
+//
+//  }
+//
+//  #color-content{
+//    position: relative;
+//    width: 100%;
+//    height: 100%;
+//    background-color: rgba(57, 30, 57, 0.4);
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    flex-direction: column;
+//  }
+//
+//  .home-card #color-border {
+//    border: 5px solid #fff;
+//    width: 10%;
+//    margin-bottom: 0;
+//  }
+//
+//  .home-card h5 {
+//    margin-bottom: 15px;
+//    font-family: 'Raleway', sans-serif;
+//    color: #fff;
+//    font-weight: 700;
+//    font-size: 17px;
+//    line-height: 1.3;
+//    letter-spacing: 0.1em;
+//    -webkit-margin-before: 1.67em;
+//    -webkit-margin-after: 1.67em;
+//
+//  }
+//
+//  // to fade color
+//
+//
+// .chemical {
+//   background-image: url();
+//   background-size: cover;
+//   opacity: 0.6;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//
 // }
+
+// ================================
+
+// selects everything - making padding easy -
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+// ************-changes beautylogo5 position
+.container {
+  width: 95%;
+  max-width: 90em;
+  margin: 0 auto;
+}
+
+.clearfix::after,
+section::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+// typyography
+// ================================
+
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5em;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.title span {
+  font-weight: 300;
+  display: block;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 60rem) {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .title {
+    font-size: 3.7rem;
+  }
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
+}
+
+@media (min-width: 60rem) {
+  .button {
+    font-size: 1.5rem;
+  }
+}
+
+.button-small {
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.button-accent {
+  color: #00ff6c;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+  background: #00ff6c;
+  color: #232323;
+}
+
+// header -
+// ================================
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5rem;
+  color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #000;
+}
+
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+
+  .nav {
+    float: right;
+  }
+}
+
+// home-hero
+// vh (viewport height)
+// ================================
+
+.home-hero {
+  background-image: url(blockColor.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width: 60rem) {
+   .home-hero {
+     height: 100vh;
+     padding-top: 35vh;
+   }
+}
+
+// home-about
+// vw (viewport width)
+// outline-offset - like borders
+// helps to center (left: 50%;transform: translateX(-50%);)
 //
-//
-//
-.para1 {
-  position: absolute;
-  font-size: 12px;
-  color: black;
-  top: 470px;
-  width: 170px;
-  height: 189px;
-  left: 40px;
-  font-family: 'Antic Slab', serif;
-  color: black;
+// ================================
+
+.home-about-textbox {
+  position: relative;
+  background-color: #D63A99;
+  padding: 4em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #FE4A49;
+  outline-offset: -2.5em;
+  color: #FFF;
 }
 
-.para2 {
+.home-about-textbox h1 {
+  color: #1A2212;
   position: absolute;
-  font-size: 12px;
-  text-align: center;
-  top: 182px;
-  width: 380px;
-  height: 389px;
-  left: 445px;
-  color: black;
-  font-family: 'Rye', cursive;
+  left: 50%;
+  transform: translateX(-50%);
+  top: .75em;
+  background: #D63A99;
+  padding: 0 .145em;
 }
 
-#para22 {
-  position: absolute;
-  text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 18px;
+@media (min-width: 25rem) {
+  h1 {
+    font-size: 2rem;
+  }
+  .home-about-textbox h1 {
+    top: .6em;
+    padding: 0 .325em;
+  }
 }
 
-#para33 {
-  position: absolute;
-  text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 12px;
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .home-about {
+    background-image: url(hairdryer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // padding: 5em;
+    padding-bottom: 10em;
+  }
+
+  // *****who we are- position
+  .home-about-textbox {
+    width: 40%;
+    padding: 5em;
+    outline-offset: -3.75em;
+    margin-left: -2.5%;
+    top: -5em;
+    text-align: left;
+    box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
+  }
+  .home-about-textbox h1 {
+    top: .73em;
+    left: 6rem;
+    transform: translateX(0);
+    padding: 0 .6em;
+  }
 }
 
-#para44 {
-  text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 12px;
-  position: absolute;
-  top: 170px;
-  // width: 200px;
-  // height: 189px;
-  // left: 1030px;
-  // text-align: center;
-  // font-size: 14px;
-  font-family: 'Phosphate',cursive;
+// portfolio
+// ================================
+
+.portfolio {
+  margin: 3em 0 0;
 }
 
-#para55 {
-  text-align: center;
-  // font-family: 'Rye', cursive;
-  font-size: 12px;
-  position: absolute;
-  top: 210px;
-  // width: 200px;
-  // height: 189px;
-  // left: 1030px;
-  // text-align: center;
-  // font-size: 14px;
-  font-family: 'HelveticaNeue', cursive;
+.port-item {
+  margin: 0;
+  position: relative;
 }
 
-#para66{
-  text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 12px;
+// ***moves img to the left on big screen
+.port-item img {
+  display: block;
+
+
+}
+ // control the shadow on top of the portfolio-img
+.port-desc {
   position: absolute;
-  top: 360px;
-  // width: 268px;
-  // height: 189px;
-  // left: 1030px;
-  // text-align: center;
-  // font-size: 14px;
-  // font-family: 'Rye', cursive;
-  // text-align: left;
+  z-index: 100;
+  bottom: 0em;
+  left: 0em;
+  right: 0em;
+  color: white;
+  background: rgba(0,0,0,.5);
+  padding-bottom: 2em;
 }
 
-#para77{
-  text-align: center;
-  // font-family: 'Rye', cursive;
-  font-size: 12px;
-  // position: fixed;
-  top: 409px;
-  // width: 268px;
-  // height: 189px;
-  // left: 1030px;
-  // text-align: center;
-  // font-size: 14px;
-  font-family: 'HelveticaNeue', cursive;
-  // text-align: left;
+.port-desc p {
+  margin: 1em;
 }
-// .para66shallowbx {
-//   position: fixed;
-//   top: 320px;
-//   width: 270px;
-//   height: 189px;
-//   left: 1030px;
-//   -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//   -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//   box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+
+@media (min-width: 37rem) {
+  .port-item {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (min-width: 60rem) {
+  .port-item {
+    width: 33.3333334%;
+    overflow: hidden;
+  }
+  .port-desc {
+    transform: translateY(150%);
+  }
+  .port-item:hover .port-desc {
+    transform: translateY(0%);
+  }
+}
+
+// figure {
+//   margin: 0;
+//   position: relative;
 // }
 
-}
+// / cta - call to action
+// ================================
 
-/* Larger than phablet */
-
-@media (max-width: 1200px) {
-
-}
-
-/* Larger than tablet */
-
-@media (max-width: 750px) {
-
-}
-
-/* Larger than desktop */
-
-@media (max-width: 550px) {
-
-}
-
-/* Larger than desktop HD*/
-
-@media (min-width: 400px) {
+.cta {
+  background-color: lightblue;
+  padding: 3em 0;
 
 }

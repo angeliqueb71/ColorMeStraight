@@ -64,24 +64,308 @@
 
   /* Larger than phablet */
 
- @media (max-width: 1000px) {
+ @media (max-width: 1000px) {//logo header on page
+   #para1 {
+     position: absolute;
+     padding-left: 445;
+     top: 40px;
+     text-align: center;
+     font-family: 'Antic Slab', serif;
+     font-size: 50px;
+     z-index: 1;
+     border-radius: 9px;
+     border: 200em;
+     background-color: #9C90A3;
+   }
+
+   #education-center {
+     position: absolute;
+     padding-left: 530px;
+     top: 120px;
+     text-align: center;
+     font-family: 'Antic Slab', serif;
+     font-size: 19px;
+     z-index: 1;
+   }
+
+   h3,h4 {
+     font-family:"Lato", sans-serif
+   }
+
+   .mySlides {
+     display:none
+   }
+
+   .w3-tag, .fa {
+     cursor:pointer
+   }
+
+   .w3-tag {
+     height:15px;
+     width:15px;
+     padding:0;
+     margin-top:100px
+   }
+
+   .w3-top, .w3-row, .w3-col {
+
+     font-size: 1em;
+     color: lightgrey;
+     margin-top: 30px
+   }
+   #plans {
+     margin-top: 180px
+   }
+
+   .w3-card-4 {
+     width: 510px;
+     height: 1600px;
+   }
+   //logo header on page
+     #para1 {
+       position: absolute;
+       padding-left: 445;
+       top: 40px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 50px;
+       z-index: 1;
+       border-radius: 9px;
+       border: 200em;
+       background-color: #9C90A3;
+     }
+
+     #education-center {
+       position: absolute;
+       padding-left: 530px;
+       top: 120px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 19px;
+       z-index: 1;
+     }
+
+     h3,h4 {
+       font-family:"Lato", sans-serif
+     }
+
+     .mySlides {
+       display:none
+     }
+
+     .w3-tag, .fa {
+       cursor:pointer
+     }
+
+     .w3-tag {
+       height:15px;
+       width:15px;
+       padding:0;
+       margin-top:100px
+     }
+
+     .w3-top, .w3-row, .w3-col {
+
+       font-size: 1em;
+       color: lightgrey;
+       margin-top: 30px
+     }
+     #plans {
+       margin-top: 180px
+     }
+
+     .w3-card-4 {
+       width: 510px;
+       height: 1600px;
+     }
 
  }
 
  /* Larger than tablet */
 
  @media (max-width: 750px) {
+   //logo header on page
+     #para1 {
+       position: absolute;
+       padding-left: 445;
+       top: 40px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 50px;
+       z-index: 1;
+       border-radius: 9px;
+       border: 200em;
+       background-color: #9C90A3;
+     }
+
+     #education-center {
+       position: absolute;
+       padding-left: 530px;
+       top: 120px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 19px;
+       z-index: 1;
+     }
+
+     h3,h4 {
+       font-family:"Lato", sans-serif
+     }
+
+     .mySlides {
+       display:none
+     }
+
+     .w3-tag, .fa {
+       cursor:pointer
+     }
+
+     .w3-tag {
+       height:15px;
+       width:15px;
+       padding:0;
+       margin-top:100px
+     }
+
+     .w3-top, .w3-row, .w3-col {
+
+       font-size: 1em;
+       color: lightgrey;
+       margin-top: 30px
+     }
+     #plans {
+       margin-top: 180px
+     }
+
+     .w3-card-4 {
+       width: 510px;
+       height: 1600px;
+     }
 
  }
 
  /* Larger than desktop */
 
  @media (max-width: 550px) {
+   //logo header on page
+     #para1 {
+       position: absolute;
+       padding-left: 445;
+       top: 40px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 50px;
+       z-index: 1;
+       border-radius: 9px;
+       border: 200em;
+       background-color: #9C90A3;
+     }
+
+     #education-center {
+       position: absolute;
+       padding-left: 530px;
+       top: 120px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 19px;
+       z-index: 1;
+     }
+
+     h3,h4 {
+       font-family:"Lato", sans-serif
+     }
+
+     .mySlides {
+       display:none
+     }
+
+     .w3-tag, .fa {
+       cursor:pointer
+     }
+
+     .w3-tag {
+       height:15px;
+       width:15px;
+       padding:0;
+       margin-top:100px
+     }
+
+     .w3-top, .w3-row, .w3-col {
+
+       font-size: 1em;
+       color: lightgrey;
+       margin-top: 30px
+     }
+     #plans {
+       margin-top: 180px
+     }
+
+     .w3-card-4 {
+       width: 510px;
+       height: 1600px;
+     }
 
  }
 
  /* Larger than desktop HD*/
 
  @media (min-width: 400px) {
+   //logo header on page
+     #para1 {
+       position: absolute;
+       padding-left: 445;
+       top: 40px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 50px;
+       z-index: 1;
+       border-radius: 9px;
+       border: 200em;
+       background-color: #9C90A3;
+     }
+
+     #education-center {
+       position: absolute;
+       padding-left: 530px;
+       top: 120px;
+       text-align: center;
+       font-family: 'Antic Slab', serif;
+       font-size: 19px;
+       z-index: 1;
+     }
+
+     h3,h4 {
+       font-family:"Lato", sans-serif
+     }
+
+     .mySlides {
+       display:none
+     }
+
+     .w3-tag, .fa {
+       cursor:pointer
+     }
+
+     .w3-tag {
+       height:15px;
+       width:15px;
+       padding:0;
+       margin-top:100px
+     }
+
+     .w3-top, .w3-row, .w3-col {
+
+       font-size: 1em;
+       color: lightgrey;
+       margin-top: 30px
+     }
+     #plans {
+       margin-top: 180px
+     }
+
+     .w3-card-4 {
+       width: 510px;
+       height: 1600px;
+     }
 
  }
