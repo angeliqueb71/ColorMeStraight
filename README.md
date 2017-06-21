@@ -69,3 +69,19 @@ You want the generated content to come before the element content, positionally.
 ::after content is also "after" in source-order, so it will position on top of ::before if stacked on top of each other naturally.
 
 https://css-tricks.com/almanac/selectors/a/after-and-before/
+
+
+Heroku - Rails - images not loading on heroku
+
+
+
+You need to do two things to resolve it. First, change these two lines from false to true in production.rb file.
+
+      config.assets.compile = true
+      config.assets.digest = true
+Second, if you've syntax like this for your images
+
+    background: url("imgo.jpg")
+Change it to
+
+     background: image-url("image.jpg")

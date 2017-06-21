@@ -280,10 +280,17 @@ body {
   text-align: center;
 }
 
-img {
+.img {
   max-width: 100%;
   max-height: auto;
 }
+
+.img-tag {
+  width: 100%;
+  height: 70%;
+}
+
+
 
 // ************-changes beautylogo5 position
 .container {
@@ -320,7 +327,7 @@ footer::after {
 }
 
 
-@media (min-width: 40rem) {
+@media only screen and (min-width: 40rem) {
   [class^=col-] {
     float: left;
     padding: 0 .5em;
@@ -385,7 +392,7 @@ p:last-of-type {
   list-style-type: none;
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
   p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -405,7 +412,7 @@ p:last-of-type {
   padding: .5em 1.75em;
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
   .button {
     font-size: 1.5rem;
   }
@@ -473,7 +480,7 @@ nav a:focus {
   color: #000;
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
   .logo {
     float: left;
   }
@@ -488,14 +495,14 @@ nav a:focus {
 // ================================
 
 .home-hero {
-  background-image: url(blockColor.jpg);
+  background: image-url('blockColor.jpg');
   background-size: cover;
   background-position: center;
   padding: 10em 0;
   color: #FFF;
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
    .home-hero {
      height: 100vh;
      padding-top: 35vh;
@@ -530,7 +537,7 @@ nav a:focus {
   padding: 0 .145em;
 }
 
-@media (min-width: 25rem) {
+@media only screen and (min-width: 25rem) {
   h1 {
     font-size: 2rem;
   }
@@ -540,12 +547,12 @@ nav a:focus {
   }
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
   h1 {
     font-size: 2.5rem;
   }
   .home-about {
-    background-image: url(hairdryer.jpg);
+    background: image-url('hairdryer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     // padding: 5em;
@@ -604,14 +611,14 @@ nav a:focus {
   margin: 1em;
 }
 
-@media (min-width: 37rem) {
+@media only screen and (min-width: 37rem) {
   .port-item {
     width: 50%;
     float: left;
   }
 }
 
-@media (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
   .port-item {
     width: 33.3333334%;
     overflow: hidden;
@@ -641,21 +648,12 @@ nav a:focus {
 // ================================
 
  footer{
- //
- //  //  background-color: lightblue;
-   padding: 6em 0;
-   background-color: #F68E56;
-   background-size: cover;
-   color: #FFF;
- //   background-image: url(blockColor.jpg);
- //   background-size: cover;
- //   background-position: center;
-   text-align: left;
+
  }
  //
- @media (min-width: 40rem) {
-    footer{
-      height: 100vh;
-      padding-top: 35vh;
-    }
- }
+ // @media only screen and (min-width: 40rem) {
+ //    footer{
+ //      height: 100vh;
+ //      padding-top: 35vh;
+ //    }
+ // }
