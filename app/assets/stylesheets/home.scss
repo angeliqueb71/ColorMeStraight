@@ -269,7 +269,7 @@
 
 // ================================
 
-// selects everything - making padding easy -
+// selects everything - making padding/margins easy -
 * {
   box-sizing: border-box;
   transition: all ease-in-out 250ms;
@@ -287,16 +287,61 @@ img {
 // ************-changes beautylogo5 position
 .container {
   width: 95%;
-  max-width: 90em;
+  max-width: 70em;
   margin: 0 auto;
 }
 
 .clearfix::after,
-section::after {
+section::after,
+footer::after {
   content: '';
   display: block;
   clear: both;
 }
+
+// **column system
+// - want them all to float left
+// any class that starts w/col (selector (^=))
+// ================================
+
+[class^=col-] {
+  width: 100%;
+  margin-top: 1em;
+}
+
+[class^=col-]:first-child {
+  padding-top: 0;
+}
+
+.col-1 {
+  width: 33.333334%;
+  float: left;
+}
+
+
+@media (min-width: 40rem) {
+  [class^=col-] {
+    float: left;
+    padding: 0 .5em;
+    margin-top: 0;
+  }
+
+  [class^=col-]:first-child {
+    padding-left: 0;
+  }
+
+  [class^=col-]:last-child {
+    padding-right: 0;
+  }
+  .col-3 {
+    width: 50%;
+  }
+
+  .col-1 {
+    width: 16.6666%;
+  }
+}
+
 
 // typyography
 // ================================
@@ -328,6 +373,16 @@ p:last-of-type {
   display: block;
   font-size: 1.5rem;
 }
+// controls padding - all around - (Like what you see)
+.title-cta {
+  margin: 0 0 .5em;
+}
+
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 @media (min-width: 60rem) {
   p {
@@ -354,21 +409,33 @@ p:last-of-type {
     font-size: 1.5rem;
   }
 }
-
+// header button
 .button-small {
   font-size: .7rem;
   font-weight: 700;
 }
 
 .button-accent {
-  color: #00ff6c;
+  color: #D63A99;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-  background: #00ff6c;
+  background: #F3F5B4;
   color: #232323;
 }
+// footer button
+
+.button-dark {
+  color: #D63A99;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+  background: #F3F5B4;
+  color: #232323;
+}
+
 
 // header -
 // ================================
@@ -388,7 +455,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 1em;
+  margin: 0em;
 }
 
 nav a {
@@ -498,7 +565,7 @@ nav a:focus {
     top: .73em;
     left: 6rem;
     transform: translateX(0);
-    padding: 0 .6em;
+    padding: 0 .10em;
   }
 }
 
@@ -566,6 +633,28 @@ nav a:focus {
 
 .cta {
   background-color: lightblue;
-  padding: 3em 0;
-
+  padding: 6em 0;
 }
+
+// footer
+// ================================
+
+ footer{
+ //
+ //  //  background-color: lightblue;
+   padding: 6em 0;
+   background-color: #F68E56;
+   background-size: cover;
+   color: #FFF;
+ //   background-image: url(blockColor.jpg);
+ //   background-size: cover;
+ //   background-position: center;
+   text-align: left;
+ }
+ //
+ @media (min-width: 40rem) {
+    footer{
+      height: 100vh;
+      padding-top: 35vh;
+    }
+ }
