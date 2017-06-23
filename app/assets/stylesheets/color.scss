@@ -2,8 +2,78 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //
-@media (max-width: 1200px) {
-//logo header on page
+
+
+
+
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+.body-color {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+.body-body {
+  position: absolute;
+  background: image-url('blockColor.jpg');
+  margin-top: 1em;
+  padding-right: 3em;
+  z-index: -200;
+}
+
+
+// logo header on page
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5rem;
+  color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #000;
+}
+
+@media only screen and (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+
+  .nav {
+    float: right;
+  }
+}
+
+// =======================================================================
+
+
+// =======================================================================
   #para1 {
     position: absolute;
     padding-left: 445;
@@ -47,9 +117,8 @@
   }
 
   .w3-top, .w3-row, .w3-col {
-
     font-size: 1em;
-    color: lightgrey;
+    color: black;
     margin-top: 30px
   }
   #plans {
@@ -60,312 +129,3 @@
     width: 510px;
     height: 1600px;
   }
-}
-
-  /* Larger than phablet */
-
- @media (max-width: 1000px) {//logo header on page
-   #para1 {
-     position: absolute;
-     padding-left: 445;
-     top: 40px;
-     text-align: center;
-     font-family: 'Antic Slab', serif;
-     font-size: 50px;
-     z-index: 1;
-     border-radius: 9px;
-     border: 200em;
-     background-color: #9C90A3;
-   }
-
-   #education-center {
-     position: absolute;
-     padding-left: 530px;
-     top: 120px;
-     text-align: center;
-     font-family: 'Antic Slab', serif;
-     font-size: 19px;
-     z-index: 1;
-   }
-
-   h3,h4 {
-     font-family:"Lato", sans-serif
-   }
-
-   .mySlides {
-     display:none
-   }
-
-   .w3-tag, .fa {
-     cursor:pointer
-   }
-
-   .w3-tag {
-     height:15px;
-     width:15px;
-     padding:0;
-     margin-top:100px
-   }
-
-   .w3-top, .w3-row, .w3-col {
-
-     font-size: 1em;
-     color: lightgrey;
-     margin-top: 30px
-   }
-   #plans {
-     margin-top: 180px
-   }
-
-   .w3-card-4 {
-     width: 510px;
-     height: 1600px;
-   }
-   //logo header on page
-     #para1 {
-       position: absolute;
-       padding-left: 445;
-       top: 40px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 50px;
-       z-index: 1;
-       border-radius: 9px;
-       border: 200em;
-       background-color: #9C90A3;
-     }
-
-     #education-center {
-       position: absolute;
-       padding-left: 530px;
-       top: 120px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 19px;
-       z-index: 1;
-     }
-
-     h3,h4 {
-       font-family:"Lato", sans-serif
-     }
-
-     .mySlides {
-       display:none
-     }
-
-     .w3-tag, .fa {
-       cursor:pointer
-     }
-
-     .w3-tag {
-       height:15px;
-       width:15px;
-       padding:0;
-       margin-top:100px
-     }
-
-     .w3-top, .w3-row, .w3-col {
-
-       font-size: 1em;
-       color: lightgrey;
-       margin-top: 30px
-     }
-     #plans {
-       margin-top: 180px
-     }
-
-     .w3-card-4 {
-       width: 510px;
-       height: 1600px;
-     }
-
- }
-
- /* Larger than tablet */
-
- @media (max-width: 750px) {
-   //logo header on page
-     #para1 {
-       position: absolute;
-       padding-left: 445;
-       top: 40px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 50px;
-       z-index: 1;
-       border-radius: 9px;
-       border: 200em;
-       background-color: #9C90A3;
-     }
-
-     #education-center {
-       position: absolute;
-       padding-left: 530px;
-       top: 120px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 19px;
-       z-index: 1;
-     }
-
-     h3,h4 {
-       font-family:"Lato", sans-serif
-     }
-
-     .mySlides {
-       display:none
-     }
-
-     .w3-tag, .fa {
-       cursor:pointer
-     }
-
-     .w3-tag {
-       height:15px;
-       width:15px;
-       padding:0;
-       margin-top:100px
-     }
-
-     .w3-top, .w3-row, .w3-col {
-
-       font-size: 1em;
-       color: lightgrey;
-       margin-top: 30px
-     }
-     #plans {
-       margin-top: 180px
-     }
-
-     .w3-card-4 {
-       width: 510px;
-       height: 1600px;
-     }
-
- }
-
- /* Larger than desktop */
-
- @media (max-width: 550px) {
-   //logo header on page
-     #para1 {
-       position: absolute;
-       padding-left: 445;
-       top: 40px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 50px;
-       z-index: 1;
-       border-radius: 9px;
-       border: 200em;
-       background-color: #9C90A3;
-     }
-
-     #education-center {
-       position: absolute;
-       padding-left: 530px;
-       top: 120px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 19px;
-       z-index: 1;
-     }
-
-     h3,h4 {
-       font-family:"Lato", sans-serif
-     }
-
-     .mySlides {
-       display:none
-     }
-
-     .w3-tag, .fa {
-       cursor:pointer
-     }
-
-     .w3-tag {
-       height:15px;
-       width:15px;
-       padding:0;
-       margin-top:100px
-     }
-
-     .w3-top, .w3-row, .w3-col {
-
-       font-size: 1em;
-       color: lightgrey;
-       margin-top: 30px
-     }
-     #plans {
-       margin-top: 180px
-     }
-
-     .w3-card-4 {
-       width: 510px;
-       height: 1600px;
-     }
-
- }
-
- /* Larger than desktop HD*/
-
- @media (min-width: 400px) {
-   //logo header on page
-     #para1 {
-       position: absolute;
-       padding-left: 445;
-       top: 40px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 50px;
-       z-index: 1;
-       border-radius: 9px;
-       border: 200em;
-       background-color: #9C90A3;
-     }
-
-     #education-center {
-       position: absolute;
-       padding-left: 530px;
-       top: 120px;
-       text-align: center;
-       font-family: 'Antic Slab', serif;
-       font-size: 19px;
-       z-index: 1;
-     }
-
-     h3,h4 {
-       font-family:"Lato", sans-serif
-     }
-
-     .mySlides {
-       display:none
-     }
-
-     .w3-tag, .fa {
-       cursor:pointer
-     }
-
-     .w3-tag {
-       height:15px;
-       width:15px;
-       padding:0;
-       margin-top:100px
-     }
-
-     .w3-top, .w3-row, .w3-col {
-
-       font-size: 1em;
-       color: lightgrey;
-       margin-top: 30px
-     }
-     #plans {
-       margin-top: 180px
-     }
-
-     .w3-card-4 {
-       width: 510px;
-       height: 1600px;
-     }
-
- }

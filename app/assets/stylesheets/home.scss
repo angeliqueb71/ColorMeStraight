@@ -3,269 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-// body {
-//   margin: 0;
-//   font-family: serif;
-//   color: grey;
-//   font-size: 1.125rem;
-//  }
-//
-//  body.toggled {
-//    overflow: hidden;
-//  }
-//
-// // sidebar nav
-// #sidenav {
-//   position: absolute;
-//   width: 330px;
-//   height: 100vh;
-//   background-color: #fff;
-//   right: 0;
-// }
-//
-//  header {
-//    position: relative;
-//    top: 0;
-//    left: 0;
-//    width: 100%;
-//   //  background-color: #452446;
-//    background-color: #FAF5F9;
-//    background-image: url();
-//    background-size: cover;
-//    text-align: center;
-//    padding-bottom: 110px;
-//    margin: 0;
-//  }
-//
-//  .nav1 {
-//   position: relative;
-//   width: 100%;
-//   height: 150px;
-//   top: 0;
-//   color: #454545;
-//   font-family: 'Antic Slab', serif;
-//   text-align: center;
-//   /*border-bottom: 3px solid #454545;*/
-//  }
-//
-//
-//
-//  .nav1 a:first-child:link {
-//    text-decoration: none;
-//    color: #454545;
-//
-//  }
-//
-//  .nav1 a:first-child:visited {
-//    text-decoration: none;
-//    color: #D5A3C0;
-//  }
-//
-//  .nav1 a:first-child img {
-//    width: 100%;
-//    height: 100vh;
-//    margin-top: 25px;
-//  }
-//
-//  .nav1 a:hover {
-//    color: #feccc9;
-//  }
-//
-//  #slide-toggle:link {
-//    position: absolute;
-//    right: 30px;
-//    top: 30px;
-//    font-size: 30px;
-//    color: #000;
-//  }
-//
-//  #slide-toggle:visited {
-//    color: #454545;
-//    text-decoration: none;
-//  }
-//
-//  .moto {
-//    position: relative;
-//    top: 0;
-//    left: 0;
-//    width: 100%;
-//
-//    font-size: 65px;
-//    line-height: 1.3;
-//    color: #000;
-//    max-width: 970px;
-//    text-align: center;
-//    letter-spacing: 0.1em;
-//    word-break: break-word;
-//    word-wrap: break-word;
-//    margin-top: 50px auto 50px auto;
-//  }
-//
-//  .main-img {
-//    position: relative;
-//    background-image: url('pinkhair.jpg');
-//    max-width: 721px;
-//    width: 721px;
-//    height: 748px;
-//    left: 50%;
-//    margin-left: -360.5px;
-//  }
-//
-//  .goal {
-//    position: relative;
-//    font-family: 'Raleway', sans-serif;
-//    font-weight: lighter;
-//    font-size: 20px;
-//    max-width: 970px;
-//    letter-spacing: 0.2em;
-//    font-size: 20px;
-//    text-align: center;
-//    margin: 50px auto 50px auto;
-//    line-height: 1.8;
-//  }
-//
-//  #app-header:link {
-//    color: #000;
-//    text-decoration: none;
-//    font-family: 'Raleway', sans-serif;
-//    font-weight: 700;
-//    text-align: center;
-//    letter-spacing: 0.2em;
-//    padding: 22px 40px;
-//    border: 2px solid black;
-//    background: transparent;
-//    text-transform: uppercase;
-//    font-size: 20px;
-//    transition: all 0.8s ease-in-out;
-//    -webkit-transition: all 0.8s ease-in-out;
-//    -moz-transition: all 0.8s ease-in-out;
-//    -o-transition: all 0.8s ease-in-out;
-//
-//  }
-//
-//  #app-header:visited {
-//    text-decoration: none;
-//  }
-//
-//  #app-header:hover {
-//    background-color: #9772B3;
-//  }
-//
-//  // card holder css
-//
-//  .card-holder {
-//    position: relative;
-//    color: #D5D2D6;
-//    width: 100%;
-//    background-color: #fff;
-//    top: 0;
-//    text-align: center;
-//  }
-//
-//  #card-holder-title {
-//    position: relative;
-//    margin: 0;
-//    padding: 20px;
-//    text-align: center;
-//   //  background-color: #FBEBD1;
-//   font-family: 'Raleway', sans-serif;
-//   max-width: 970px;
-//   font-size: 35px;
-//   font-weight: 700;
-//   letter-spacing: 0.2em;
-//   text-transform: uppercase;
-//
-//  }
-//
-//  .home-card {
-//    position: relative;
-//    width: 50%;
-//    height: 450;
-//    border-bottom: 2px solid #000;
-//    border-top: 2px solid #000;
-//    margin: 0;
-//  }
-//
-//  .home-card a:link {
-//    color: black;
-//    text-decoration: none;
-//    font-family: 'Raleway', sans-serif;
-//    font-weight: 700;
-//    font-size: 35px;
-//    line-height: 1.3;
-//    letter-spacing: 0.1em;
-//  }
-//
-//  .home-card a:visited {
-//    color: #fff;
-//    text-decoration: none;
-//    font-family: 'Raleway', sans-serif;
-//    font-weight: 700;
-//    font-size: 30px;
-//  }
-//
-//  .home-card.left {
-//    float: left;
-//    left: 0;
-//    background-color: #CCCADE;
-//  }
-//
-//  .home-card.right {
-//    float: right;
-//    right: 0;
-//    background-color: #C4C8A7;
-//  }
-//
-//  .color {
-//    background-image: url(assets/img/dkhair.jpg);
-//    background-size: cover;
-//    opacity: 1;
-//    background-position: center center;
-//    background-repeat: no-repeat;
-//
-//  }
-//
-//  #color-content{
-//    position: relative;
-//    width: 100%;
-//    height: 100%;
-//    background-color: rgba(57, 30, 57, 0.4);
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    flex-direction: column;
-//  }
-//
-//  .home-card #color-border {
-//    border: 5px solid #fff;
-//    width: 10%;
-//    margin-bottom: 0;
-//  }
-//
-//  .home-card h5 {
-//    margin-bottom: 15px;
-//    font-family: 'Raleway', sans-serif;
-//    color: #fff;
-//    font-weight: 700;
-//    font-size: 17px;
-//    line-height: 1.3;
-//    letter-spacing: 0.1em;
-//    -webkit-margin-before: 1.67em;
-//    -webkit-margin-after: 1.67em;
-//
-//  }
-//
-//  // to fade color
-//
-//
-// .chemical {
-//   background-image: url();
-//   background-size: cover;
-//   opacity: 0.6;
-//   background-position: center center;
-//   background-repeat: no-repeat;
-//
-// }
 
 // ================================
 
@@ -278,11 +15,12 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  background: lightyellow;
 }
 
 .img {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
 }
 
 .img-tag {
@@ -295,7 +33,6 @@ body {
 // ************-changes beautylogo5 position
 .container {
   width: 95%;
-  max-width: 70em;
   margin: 0 auto;
 }
 
@@ -371,15 +108,23 @@ p:last-of-type {
 
 .title {
   font-size: 2.5rem;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   font-weight: 900;
   margin-top: 1em;
 }
 
+// for color font - goto .home-hero
 .title span {
   font-weight: 300;
   display: block;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+}
+
+@media (min-width:60rem) {
+  .title {
+    font-size: 3.7rem;
+  }
+
 }
 // controls padding - all around - (Like what you see)
 .title-cta {
@@ -392,13 +137,10 @@ p:last-of-type {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   p {
     font-size: 1.2rem;
     line-height: 1.6;
-  }
-  .title {
-    font-size: 3.7rem;
   }
 }
 
@@ -412,7 +154,7 @@ p:last-of-type {
   padding: .5em 1.75em;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   .button {
     font-size: 1.5rem;
   }
@@ -445,7 +187,8 @@ p:last-of-type {
 }
 
 
-// header -
+// header - CMS logo - corner left on lg screen
+// nav - top - position - nav li
 // ================================
 
 header {
@@ -463,15 +206,15 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 0em;
+  margin: 1em;
 }
 
 nav a {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: .8rem;
-  padding: .5rem;
+  font-size: .7rem;
+  padding: .1rem;
   color: #FFF;
 }
 
@@ -480,11 +223,10 @@ nav a:focus {
   color: #000;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   .logo {
     float: left;
   }
-
   .nav {
     float: right;
   }
@@ -498,14 +240,15 @@ nav a:focus {
   background: image-url('blockColor.jpg');
   background-size: cover;
   background-position: center;
+  text-transform: capitalize;
   padding: 10em 0;
   color: #FFF;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
    .home-hero {
      height: 100vh;
-     padding-top: 35vh;
+     padding-top: 38vh;
    }
 }
 
@@ -537,7 +280,7 @@ nav a:focus {
   padding: 0 .145em;
 }
 
-@media only screen and (min-width: 25rem) {
+@media (min-width: 25rem) {
   h1 {
     font-size: 2rem;
   }
