@@ -39,6 +39,7 @@ body {
 
 .clearfix::after,
 section::after,
+.undertones::after
 footer::after {
   content: '';
   display: block;
@@ -140,6 +141,9 @@ p:last-of-type {
   }
   .title {
     font-size: 3.7rem;
+  }
+  .undertones {
+    font-size: 1.2rem;
   }
 }
 
