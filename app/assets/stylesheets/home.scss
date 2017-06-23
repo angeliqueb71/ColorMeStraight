@@ -23,16 +23,17 @@ body {
   height: auto;
 }
 
-.img-tag {
-  width: 100%;
-  height: 70%;
-}
+// .img-tag {
+//   width: 100%;
+//   height: 70%;
+// }
 
 
 
 // ************-changes beautylogo5 position
 .container {
   width: 95%;
+  max-width: 90em;
   margin: 0 auto;
 }
 
@@ -52,10 +53,11 @@ footer::after {
 [class^=col-] {
   width: 100%;
   margin-top: 1em;
+  padding: 0 .5em;
 }
 
 [class^=col-]:first-child {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .col-1 {
@@ -64,7 +66,7 @@ footer::after {
 }
 
 
-@media only screen and (min-width: 40rem) {
+@media (min-width: 40rem) {
   [class^=col-] {
     float: left;
     padding: 0 .5em;
@@ -120,12 +122,6 @@ p:last-of-type {
   font-size: 2.5rem;
 }
 
-@media (min-width:60rem) {
-  .title {
-    font-size: 3.7rem;
-  }
-
-}
 // controls padding - all around - (Like what you see)
 .title-cta {
   margin: 0 0 .5em;
@@ -141,6 +137,9 @@ p:last-of-type {
   p {
     font-size: 1.2rem;
     line-height: 1.6;
+  }
+  .title {
+    font-size: 3.7rem;
   }
 }
 
@@ -240,9 +239,10 @@ nav a:focus {
   background: image-url('blockColor.jpg');
   background-size: cover;
   background-position: center;
-  text-transform: capitalize;
   padding: 10em 0;
+  text-transform: capitalize;
   color: #FFF;
+  background-attachment: fixed;
 }
 
 @media (min-width: 60rem) {
@@ -290,7 +290,7 @@ nav a:focus {
   }
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   h1 {
     font-size: 2.5rem;
   }
@@ -304,8 +304,8 @@ nav a:focus {
 
   // *****who we are- position
   .home-about-textbox {
-    width: 40%;
-    padding: 5em;
+    width: 45%;
+    padding: 5.5em;
     outline-offset: -3.75em;
     margin-left: -2.5%;
     top: -5em;
@@ -327,6 +327,10 @@ nav a:focus {
   margin: 3em 0 0;
 }
 
+figure {
+  margin: 0;
+}
+
 .port-item {
   margin: 0;
   position: relative;
@@ -335,6 +339,8 @@ nav a:focus {
 // ***moves img to the left on big screen
 .port-item img {
   display: block;
+  width: 100%;
+  height: 70%;
 
 
 }
@@ -354,14 +360,14 @@ nav a:focus {
   margin: 1em;
 }
 
-@media only screen and (min-width: 37rem) {
+@media (min-width: 37rem) {
   .port-item {
     width: 50%;
     float: left;
   }
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   .port-item {
     width: 33.3333334%;
     overflow: hidden;
@@ -384,19 +390,15 @@ nav a:focus {
 
 .cta {
   background-color: lightblue;
-  padding: 6em 0;
+  padding: 5em 0;
 }
 
 // footer
 // ================================
 
  footer{
+   color: #000;
+   text-align: left;
+   padding: 4em 0;
 
  }
- //
- // @media only screen and (min-width: 40rem) {
- //    footer{
- //      height: 100vh;
- //      padding-top: 35vh;
- //    }
- // }
