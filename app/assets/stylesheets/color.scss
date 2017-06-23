@@ -4,7 +4,8 @@
 //
 
 
-
+// selects everything - making padding/margins easy -
+// ================================
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@
 }
 .body-color {
   margin: 0;
+  padding: 3rem;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #000;
@@ -25,8 +27,21 @@
   z-index: -200;
 }
 
+@media only screen and (min-width: 60rem) {
+  .body-color {
+    float: left;
+  }
+
+  .body-body {
+    float: right;
+  }
+}
+
+
 
 // logo header on page
+// typyography
+// ================================
 
 header {
   position: absolute;
@@ -60,7 +75,7 @@ nav a:focus {
   color: #000;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   .logo {
     float: left;
   }
@@ -97,9 +112,7 @@ nav a:focus {
     z-index: 1;
   }
 
-  h3,h4 {
-    font-family:"Lato", sans-serif
-  }
+
 
   .mySlides {
     display:none
@@ -116,16 +129,67 @@ nav a:focus {
     margin-top:100px
   }
 
-  .w3-top, .w3-row, .w3-col {
-    font-size: 1em;
-    color: black;
-    margin-top: 30px
-  }
+
   #plans {
     margin-top: 180px
   }
 
-  .w3-card-4 {
-    width: 510px;
-    height: 1600px;
+  // ==============================================
+
+  h3,h4 {
+    font-family:"Lato", sans-serif
   }
+
+  p {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+
+  @media (min-width: 60rem) {
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    .title {
+      font-size: 3.7rem;
+    }
+    .undertones {
+      font-size: 1.2rem;
+    }
+  }
+//  buttons
+// ==============================================
+
+  .button {
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+  }
+
+  @media (min-width: 60rem) {
+    .button {
+      font-size: 1.5rem;
+    }
+  }
+
+  .button-accent {
+    color: #D63A99;
+  }
+
+  .button-accent:hover,
+  .button-accent:focus {
+    background: #F3F5B4;
+    color: #232323;
+  }
+
+
+  // ==============================================

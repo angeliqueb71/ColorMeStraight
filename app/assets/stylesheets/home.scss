@@ -142,9 +142,6 @@ p:last-of-type {
   .title {
     font-size: 3.7rem;
   }
-  .undertones {
-    font-size: 1.2rem;
-  }
 }
 
 .button {
@@ -307,11 +304,13 @@ nav a:focus {
   }
 
   // *****who we are- position
+  //margin-left control position of pink-box
+  // ===============================
   .home-about-textbox {
     width: 45%;
     padding: 5.5em;
     outline-offset: -3.75em;
-    margin-left: -2.5%;
+    margin-left: -7.5%;
     top: -5em;
     text-align: left;
     box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
