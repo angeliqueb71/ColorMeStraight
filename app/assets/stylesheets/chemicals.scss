@@ -10,35 +10,107 @@
 }
 .body-chem {
   margin: 0;
-  padding: 3rem;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  color: #000;
+  background: lightblue;
 }
 
-.body-chem {
-  position: absolute;
-  background: image-url('blockColor.jpg');
-  background-position: center;
-  background-size: auto;
-  margin-top: 1em;
-  padding-right: 3em;
-  z-index: -200;
+.img {
+  max-width: 100%;
+  height: auto;
 }
 
+
+// ************-changes beautylogo5 position
 .container {
   width: 95%;
+  max-width: 90em;
   margin: 0 auto;
 }
 
 .clearfix::after,
+section::after,
+.undertones::after
 footer::after {
   content: '';
   display: block;
   clear: both;
 }
 
-// logo header on page
+.law-color {
+  padding: 5em;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.history {
+  padding: 5em;
+  border-radius: 50px;
+  background: #DCDCDB;
+  font-size: 5px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 60rem) {
+  .law-color {
+    padding: 5em;
+    margin: 0 auto;
+  }
+
+  .history {
+    padding: 5em;
+    font-size: 5px;
+  }
+}
+
+// **column system
+// - want them all to float left
+// any class that starts w/col (selector (^=))
+// ================================
+
+
+
+
+// typyography
+// ================================
+
+
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2em;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+// for color font - goto .home-hero
+.title span {
+  font-weight: 300;
+  display: block;
+  font-size: 2.5rem;
+}
+
+// controls padding - all around - (Like what you see)
+.title-cta {
+  margin: 0 0 .5em;
+}
+
+@media (min-width: 60rem) {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .title {
+    font-size: 3.7rem;
+  }
+}
+
+
+
+// header - CMS logo - corner left on lg screen
+// nav - top - position - nav li
+// ================================
 
 header {
   position: absolute;
@@ -62,8 +134,8 @@ nav a {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: .8rem;
-  padding: .5rem;
+  font-size: .7rem;
+  padding: .1rem;
   color: #FFF;
 }
 
@@ -72,127 +144,46 @@ nav a:focus {
   color: #000;
 }
 
-@media only screen and (min-width: 60rem) {
+@media (min-width: 60rem) {
   .logo {
     float: left;
   }
-
   .nav {
     float: right;
   }
 }
 
-// ===========================================================================
-
-table {
-    display: inline-table;
-    margin: -1em;
-    border: solid 6px;
-    border-width: 14px;
-    border-spacing: 2px;
-    border-color: #7C787A;
-
-
-
-}
-table th, table td {
-    background-color: #7C787A;
+.home-hero {
+  background: image-url('blockColor.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  text-transform: capitalize;
+  color: #FFF;
+  background-attachment: fixed;
 }
 
-// ===========================================================================
-
-// **column system
-// - want them all to float left
-// any class that starts w/col (selector (^=))
-// ===========================================================================
-
-[class^=coll-] {
-  width: 100%;
-  margin-top: 1em;
+@media (min-width: 60rem) {
+   .home-hero {
+     height: 100vh;
+     padding-top: 38vh;
+   }
 }
 
-[class^=coll-]:first-child {
-  padding-top: 0;
+// / cta - call to action
+// ================================
+
+.cta {
+  background-color: lightblue;
+  padding: 5em 0;
 }
 
-.coll-2 {
-  width: 33.333334%;
-  float: left;
-}
+// footer
+// ================================
 
+ footer{
+   color: #000;
+   text-align: left;
+   padding: 4em 0;
 
-@media only screen and (min-width: 40rem) {
-  [class^=coll-] {
-    float: left;
-    padding: 0 .5em;
-    margin-top: 0;
-  }
-
-  [class^=coll-]:first-child {
-    padding-left: 0;
-  }
-
-  [class^=coll-]:last-child {
-    padding-right: 0;
-  }
-  .coll-4 {
-    width: 40%;
-  }
-
-  .coll-2 {
-    width: 16.6666%;
-  }
-}
-// ===========================================================================
-
-// controls padding - all around - (Like what you see)
-.title-cta {
-  margin: 0 0 .5em;
-}
-
-.unstyledList {
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width: 60rem) {
-  p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-  .title {
-    font-size: 3.7rem;
-  }
-}
-
-// ===========================================================================
-
-#para1 {
-  position: absolute;
-  // padding-left: 445;
-  top: 40px;
-  text-align: center;
-  font-family: 'Antic Slab', serif;
-  font-size: 50px;
-  z-index: 1;
-  border-radius: 9px;
-  // border: 200em;
-  background-color: #9C90A3;
-}
-
-#education-center {
-  position: absolute;
-  // padding-left: 530px;
-  top: 120px;
-  text-align: center;
-  font-family: 'Antic Slab', serif;
-  font-size: 19px;
-  z-index: 1;
-}
-//
-//
-//
-
-// }
-//
-//
+ }

@@ -13,18 +13,14 @@
 }
 .body-color {
   margin: 0;
-  padding: 3rem;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  color: #000;
+  background: lightyellow;
 }
 
-.body-body {
-  position: absolute;
-  background: image-url('blockColor.jpg');
-  margin-top: 1em;
-  padding-right: 3em;
-  z-index: -200;
+.img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 60rem) {
@@ -37,6 +33,19 @@
   }
 }
 
+// .container {
+//   width: 95%;
+//   max-width: 90em;
+//   margin: 0 auto;
+// }
+
+.clearfix::after,
+section::after,
+footer::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
 
 // logo header on page
@@ -85,9 +94,94 @@ nav a:focus {
   }
 }
 
+.color-hero {
+  background: image-url('colorwheel2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 8em 0;
+  text-transform: capitalize;
+  color: #FFF;
+  background-attachment: fixed;
+}
+
+@media (min-width: 60rem) {
+   .color-hero {
+     height: 100vh;
+     padding-top: 38vh;
+   }
+}
+
 // =======================================================================
 
+// home-about
+// vw (viewport width)
+// outline-offset - like borders
+// helps to center (left: 50%;transform: translateX(-50%);)
+//
+// ================================
 
+.color-about-textbox {
+  position: relative;
+  background-color: #D63A99;
+  padding: 4em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #FE4A49;
+  outline-offset: -2.5em;
+  color: #FFF;
+}
+
+.color-about-textbox h1 {
+  color: #1A2212;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: .10em;
+  background: #D63A99;
+  padding: 0 .145em;
+}
+
+@media (min-width: 25rem) {
+  h1 {
+    font-size: 2rem;
+  }
+  .color-about-textbox h1 {
+    top: .6em;
+    padding: 0 .325em;
+  }
+}
+
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .color-about {
+    background: image-url('colore.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10em;
+
+  }
+
+  // *****who we are- position
+  //margin-left control position of pink-box
+  // ===============================
+  .color-about-textbox {
+    width: 45%;
+    padding: 5.5em;
+    outline-offset: -3.75em;
+    margin-left: -2.5%;
+    top: -5em;
+    text-align: left;
+    box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
+  }
+  .color-about-textbox h1 {
+    top: .35em;
+    left: 6rem;
+    transform: translateX(0);
+    padding: 0 .10em;
+  }
+}
 // =======================================================================
   #para1 {
     position: absolute;
@@ -131,7 +225,7 @@ nav a:focus {
 
 
   #plans {
-    margin-top: 180px
+    margin-top: 0;
   }
 
   // ==============================================
@@ -149,13 +243,29 @@ nav a:focus {
     margin-bottom: 0;
   }
 
+  .title-color {
+    font-size: 2.5rem;
+    margin-bottom: 2em;
+    font-weight: 900;
+    margin-top: 1em;
+    color: #000;
+  }
+
+  // for color font - goto .home-hero
+  .title span {
+    font-weight: 300;
+    display: block;
+    font-size: 2.5rem;
+  }
+
 
   @media (min-width: 60rem) {
     p {
       font-size: 1.2rem;
       line-height: 1.6;
     }
-    .title {
+
+    .title-color {
       font-size: 3.7rem;
     }
     .undertones {
@@ -193,3 +303,42 @@ nav a:focus {
 
 
   // ==============================================
+
+  [class^=col-] {
+    width: 100%;
+    margin-top: 1em;
+    padding: 0 .5em;
+  }
+
+  [class^=col-]:first-child {
+    margin-top: 0;
+  }
+
+  .col-1 {
+    width: 33.333334%;
+    float: left;
+  }
+
+
+  @media (min-width: 40rem) {
+    [class^=col-] {
+      float: left;
+      padding: 0 .5em;
+      margin-top: 0;
+    }
+
+    [class^=col-]:first-child {
+      padding-left: 0;
+    }
+
+    [class^=col-]:last-child {
+      padding-right: 0;
+    }
+    .col-3 {
+      width: 50%;
+    }
+
+    .col-1 {
+      width: 16.6666%;
+    }
+  }
