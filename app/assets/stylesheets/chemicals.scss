@@ -38,33 +38,31 @@ footer::after {
 }
 
 .law-color {
-  padding: 5em;
+  // padding: 5em;
   margin: 0 auto;
   background: #fff;
 }
 
 .history {
-  padding: 5em;
-  border-radius: 50px;
+  // padding: 5em;
+  // border-radius: 50px;
   background: #DCDCDB;
-  font-size: 5px;
+  // font-size: 5px;
   margin: 0 auto;
 }
 
 
-@media (min-width: 60rem) {
-  .law-color {
-    padding: 30em;
-    margin: 0 auto;
-    background-position: center;
-  }
-
-  .history {
-    padding: 30em;
-    font-size: 5px;
-    background-position: center;
-  }
-}
+// @media (min-width: 60rem) {
+//   .law-color {
+//     padding-top: 16px!important;
+//     padding-bottom: 16px!important;
+//   }
+//
+//   .history {
+//     padding-top: 16px!important;
+//     padding-bottom: 16px!important;
+//   }
+// }
 
 // **column system
 // - want them all to float left
