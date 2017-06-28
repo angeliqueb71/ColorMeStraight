@@ -8,6 +8,7 @@
   box-sizing: border-box;
   transition: all ease-in-out 250ms;
 }
+
 .body-chem {
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -36,33 +37,6 @@ footer::after {
   display: block;
   clear: both;
 }
-
-.law-color {
-  // padding: 5em;
-  margin: 0 auto;
-  background: #fff;
-}
-
-.history {
-  // padding: 5em;
-  // border-radius: 50px;
-  background: #DCDCDB;
-  // font-size: 5px;
-  margin: 0 auto;
-}
-
-
-// @media (min-width: 60rem) {
-//   .law-color {
-//     padding-top: 16px!important;
-//     padding-bottom: 16px!important;
-//   }
-//
-//   .history {
-//     padding-top: 16px!important;
-//     padding-bottom: 16px!important;
-//   }
-// }
 
 // **column system
 // - want them all to float left

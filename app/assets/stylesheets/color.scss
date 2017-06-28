@@ -14,13 +14,15 @@
 .body-color {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   text-align: center;
-  background: lightyellow;
+  background: image-url('blockColor3.jpg')
 }
 
 .img {
   max-width: 100%;
   height: auto;
+
 }
 
 @media only screen and (min-width: 60rem) {
@@ -33,11 +35,11 @@
   }
 }
 
-// .container {
-//   width: 95%;
-//   max-width: 90em;
-//   margin: 0 auto;
-// }
+.container {
+  width: 95%;
+  max-width: 90em;
+  margin: 0 auto;
+}
 
 .clearfix::after,
 section::after,
@@ -84,6 +86,42 @@ nav a:focus {
   color: #000;
 }
 
+@media (min-width: 25rem) {
+  .law-color {
+    padding: 8em 0;
+    background: #fff;
+    font-size: 9px;
+
+  }
+
+  .history {
+    padding: 8em 0;
+    background: #EEEEEE;
+    font-size: 9px;
+
+  }
+}
+
+
+
+
+@media (min-width: 60rem) {
+  .law-color {
+    padding: 8px 16px;
+    background: #fff;
+    font-size: 10px;
+
+  }
+
+  .history {
+    padding: 8px 16px;
+    background: #EEEEEE;
+    font-size: 10px;
+
+  }
+}
+
+
 @media (min-width: 60rem) {
   .logo {
     float: left;
@@ -95,7 +133,7 @@ nav a:focus {
 }
 
 .color-hero {
-  background: image-url('colorwheel2.jpg');
+  background: image-url('blockColor.jpg');
   background-size: cover;
   background-position: center;
   padding: 8em 0;
@@ -146,7 +184,7 @@ nav a:focus {
     font-size: 2rem;
   }
   .color-about-textbox h1 {
-    top: .6em;
+    top: .0em;
     padding: 0 .325em;
   }
 }
@@ -304,41 +342,11 @@ nav a:focus {
 
   // ==============================================
 
-  [class^=col-] {
-    width: 100%;
-    margin-top: 1em;
-    padding: 0 .5em;
-  }
-
-  [class^=col-]:first-child {
-    margin-top: 0;
-  }
-
-  .col-1 {
-    width: 33.333334%;
-    float: left;
-  }
+  .footercolor {
+    background-color: #D63A99;
+    box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
+    font-weight: 300;
+    color: #000;
 
 
-  @media (min-width: 40rem) {
-    [class^=col-] {
-      float: left;
-      padding: 0 .5em;
-      margin-top: 0;
-    }
-
-    [class^=col-]:first-child {
-      padding-left: 0;
-    }
-
-    [class^=col-]:last-child {
-      padding-right: 0;
-    }
-    .col-3 {
-      width: 50%;
-    }
-
-    .col-1 {
-      width: 16.6666%;
-    }
   }
