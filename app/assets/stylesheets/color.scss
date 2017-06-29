@@ -16,7 +16,8 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-align: center;
-  background: image-url('blockColor3.jpg')
+  // background: #EDCDC2;
+  background: image-url('blockColor2.png')
 }
 
 .img {
@@ -40,6 +41,8 @@
   max-width: 90em;
   margin: 0 auto;
 }
+
+
 
 .clearfix::after,
 section::after,

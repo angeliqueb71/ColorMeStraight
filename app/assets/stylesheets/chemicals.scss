@@ -8,12 +8,15 @@
   box-sizing: border-box;
   transition: all ease-in-out 250ms;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 .body-chem {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  background: lightblue;
+  background: image-url('blockColor.jpg');
 }
 
 .img {
@@ -21,12 +24,58 @@
   height: auto;
 }
 
+body {
+    display: block;
+    margin: 8px;
+}
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+h2 {
+    font-size: 2em;
+}
+
+// user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+
+
+
 
 // ************-changes beautylogo5 position
 .container {
   width: 95%;
   max-width: 90em;
   margin: 0 auto;
+}
+
+.w3-chem {
+  position: relative;
+  background: #fbefcc;
+  font-size: 1em;
+  margin: 2em;
+  font-weight: 300;
+  margin-top: 1em;
+  text-align: justify;
+
 }
 
 .clearfix::after,
@@ -43,13 +92,49 @@ footer::after {
 // any class that starts w/col (selector (^=))
 // ================================
 
+[class^=coll-] {
+  width: 100%;
+  margin-top: 1em;
+  padding: 0 .5em;
+}
 
+[class^=coll-]:first-child {
+  margin-top: 0;
+}
+
+.coll-2 {
+  width: 33.333334%;
+  float: left;
+}
+
+
+@media (min-width: 40rem) {
+  [class^=coll-] {
+    float: left;
+    padding: 0 .5em;
+    margin-top: 0;
+  }
+
+  [class^=coll-]:first-child {
+    padding-left: 0;
+  }
+
+  [class^=coll-]:last-child {
+    padding-right: 0;
+  }
+  .coll-4 {
+    width: 50%;
+  }
+
+  .coll-2 {
+    width: 16.6666%;
+  }
+}
 
 
 // typyography
+// Top title
 // ================================
-
-
 
 .title {
   font-size: 2.5rem;
@@ -70,14 +155,53 @@ footer::after {
   margin: 0 0 .5em;
 }
 
+
+// bottom footer
+// ================================
+
+.title-cta-cta {
+  font-size: 1rem;
+  margin-bottom: 2em;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+// for color font - goto .home-hero
+.title-cta-cta span {
+  font-weight: 300;
+  display: block;
+  font-size: 2.5rem;
+}
+
+// controls padding - all around - (Like what you see)
+.title-cta-cta {
+  margin: 0 0 .5em;
+  font-weight: 300;
+}
+
+
+// ==================================
+
+
+
 @media (min-width: 60rem) {
   p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .w3-chem {
     font-size: 1.2rem;
     line-height: 1.6;
   }
   .title {
     font-size: 3.7rem;
   }
+
+  .title-cta-cta {
+    font-size: 1em;
+    font-weight: 300;
+  }
+
 }
 
 
@@ -137,18 +261,27 @@ nav a:focus {
   background-attachment: fixed;
 }
 
+.chem-video {
+  height: 280px;
+  padding-top:16px;
+}
+
 @media (min-width: 60rem) {
    .home-hero {
      height: 100vh;
      padding-top: 38vh;
+   }
+   .chem-video {
+     height: 280px;
+     padding-top: 16px;
    }
 }
 
 // / cta - call to action
 // ================================
 
-.cta {
-  background-color: lightblue;
+.cta-cta {
+  background: #bdcebe;
   padding: 5em 0;
 }
 
