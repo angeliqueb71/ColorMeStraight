@@ -16,8 +16,8 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-align: center;
-  // background: #EDCDC2;
-  background: image-url('blockColor2.png')
+  background: #fff;
+  // background: image-url('blockColor.jpg')
 }
 
 .img {
@@ -177,7 +177,7 @@ nav a:focus {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: .10em;
+  top: .75em;
   background: #D63A99;
   padding: 0 .145em;
 }
@@ -187,7 +187,7 @@ nav a:focus {
     font-size: 2rem;
   }
   .color-about-textbox h1 {
-    top: .0em;
+    top: .6em;
     padding: 0 .325em;
   }
 }
@@ -217,7 +217,7 @@ nav a:focus {
     box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
   }
   .color-about-textbox h1 {
-    top: .35em;
+    top: .75em;
     left: 6rem;
     transform: translateX(0);
     padding: 0 .10em;
@@ -346,10 +346,11 @@ nav a:focus {
   // ==============================================
 
   .footercolor {
-    background-color: #D63A99;
+    background-color: #bdcebe;
     box-shadow: 0 0 3em 0 rgba(0,0,0,.2);
     font-weight: 300;
     color: #000;
+
 
 
   }
