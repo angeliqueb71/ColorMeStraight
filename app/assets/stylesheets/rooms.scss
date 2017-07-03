@@ -5,7 +5,7 @@
 
 //logo header on page
   #para-b1 {
-    position: fixed;
+    position: relative;
     padding-left: 445;
     top: 40px;
     text-align: center;
@@ -80,13 +80,13 @@ q:after {
 }
 
 // channels header
-.header {
-  position: fixed;
-  top: 200px;
-  left: 50px;
-  height: 53px;
-  width: 100%;
-}
+// .header {
+//   position: fixed;
+//   top: 200px;
+//   left: 50px;
+//   height: 53px;
+//   width: 100%;
+// }
 
 // sidebar height
 .main {
@@ -98,7 +98,7 @@ q:after {
 // textarea input box
 .footer {
   position: fixed;
-  left: 100px;
+  left: -10em;
   bottom: 145px;
   height: 14px;
   width: 100%;
@@ -106,15 +106,15 @@ q:after {
 
 
 // display of inside sidebar user/listing
-.listings {
-  height: 400px;
-  width: 251px;
-  float: left;
-  color: #ab9ba9;
-  background-color: #AFAFAF;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
+// .listings {
+//   height: 400px;
+//   width: 251px;
+//   float: left;
+//   color: #ab9ba9;
+//   background-color: #AFAFAF;
+//   overflow-y: auto;
+//   overflow-x: hidden;
+// }
 
 .message-history {
   margin-left: 250px;
@@ -126,9 +126,9 @@ q:after {
   overflow-x: hidden;
 }
 
-.listings_channels {
-  margin: 1rem 0 2rem;
-}
+// .listings_channels {
+//   margin: 1rem 0 2rem;
+// }
 //color me straight header in side the shadow box
 .listings_header {
   text-align: left;
@@ -144,7 +144,7 @@ q:after {
 
 // .channel_list {
 //   list-style-type: none;
-//   text-align: left;
+//   text-align: justify;
 //   color: #ab9ba9;
 // }
 
@@ -301,29 +301,39 @@ q:after {
 }
 
 .signupDevise {
-  position: fixed;
-  top: 300px;
-  left: 200px;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  font-weight: 900;
+  margin-top: 1em;
 }
 
 // devise sign-in /////////
 
 .loginDevise {
-  position: fixed;
-  top: 300px;
-  left: 200px;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  font-weight: 900;
+  margin-top: 1em;
+  // position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+  // top: .75em;
+  // height: 150px;
+  // width: 250px;
+  // padding: 10px;
 }
 
 .userLinks {
-  position: fixed;
-  top: 470px;
-  left: 200px;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  font-weight: 900;
+  margin-top: 1em;
 }
 
 //devise forget pwd
 
 .forgetpwdDevise {
-  position: fixed;
+  // position: fixed;
   top: 300px;
   left: 200px;
 }
@@ -331,7 +341,7 @@ q:after {
 //////Devise para
 
 .paraDevise {
-  position: fixed;
+  // position: fixed;
   text-align: center;
   top: 230px;
   left: 410px;
@@ -347,7 +357,7 @@ q:after {
 //devise signup page
 
 .signupPara{
-  position: fixed;
+  // position: fixed;
   text-align: center;
   top: 230px;
   left: 500px;
@@ -360,18 +370,23 @@ q:after {
   border-radius: 3;
 }
 
-// input[type="text"], input[type="email"], input[type="password"], textarea {
-// 	width: 90%;
-// 	border: 1px solid #d6dce0;
-// 	border-radius: .35em;
-// 	margin-top: 10px;
-// 	padding: .5em 1em;
-// 	line-height: 1.75;
+  // input[type="text"], input[type="email"], input[type="password"], textarea {
+	// width: 50%;
+	// border: 1px solid #d6dce0;
+	// border-radius: .35em;
+	// margin-top: 10px;
+	// padding: .5em 1em;
+	// line-height: 1.75;
+
 // }
+
+
 input[type="text"] {
 	height: 35px;
+  margin-left: .5em;
 }
 textarea {
+  margin-left: .5em;
 	min-height: 80px;
 }
 
